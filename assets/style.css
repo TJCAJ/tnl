@@ -1,6 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Noto+Sans+Elbasan&display=swap');
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Paytone+One&display=swap')
 
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
 body {
-    font-family: sans-serif;
-    font-weight: 300;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(0, 0%, 98%);
+}
+
+h1, h2, h3 {
+    font-family: "Paytone One", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #e21111;
 }
