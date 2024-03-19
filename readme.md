@@ -1,12 +1,12 @@
-# The Straight Flush
+# The Nut Low
 
-The Straight Flush is a site for people who are interested in playing Texas Holdem poker by joining our local KPC poker club in Älta, Sweden. This is a member site only, created to make it easier for members to meet, socialise and of course playing poker! The Straight Flush will be useful to schedule tournaments more frequentley. The website also aims to explain the basics of some of the most common poker games. View the live site here
+The Nut Low is a site for people who are interested in playing Texas Holdem poker by joining our local KPC poker club in Stockholm, Sweden. This is a member site only, created to make it easier for members to meet, socialise and of course playing poker! The Straight Flush will be useful to schedule tournaments more frequentley. The website also aims to explain the basics of some of the most common poker games. View the live site here
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup]
 
 ## Features
 
-The Straight Flush will help the user to to organize and setup events on a more regular basis, as well as it opens up the possiibilty for new members to join KPC and share their passion for poker.
+The Nut Low will help the user to to organize and setup events on a more regular basis, as well as it opens up the possiibilty for new members to join KPC and share their passion for poker.
 
 ### Existing Features
 
@@ -16,21 +16,21 @@ The Straight Flush will help the user to to organize and setup events on a more 
 
   - This will allow users to easily navigate the website's pages on any device in a seamless flow without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar Mockup]
 
 - __The landing page image__
 
   - The landing page image will be a a strong poker hand or a card deck.  
   - This introduces the user to what the weviste is about with a strong visul animation in order to to grab their attention.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/)
 
-- __The Straight Flush Club Section__
+- __The Nuts Low Club Section__
 
-  - The Straight Flush will help the user to to organize and setup events on a more regular basis.
-  - This user will see the value of signing up for The Straight Flush events. This should encourage the user to use it's memberservice and for others to join the club and share their passion for poker.
+  - The Nut Low will help the user to to organize and setup events on a more regular basis.
+  - This user will see the value of signing up for The Nut Low events. This should encourage the user to use it's memberservice and for others to join the club and share their passion for poker.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Club Ethos](https://github.com/)
 
 - __Meetup Times section__
 
@@ -38,27 +38,27 @@ The Straight Flush will help the user to to organize and setup events on a more 
   - This section will be updated with status of seats taken and when it's fully booked, as the members sign up for each event via the Sign Up form.
   - This section will help to keep the user up to date. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meetup Times](https://github.com/)
 
 - __The Footer__ 
 
   - The footer section contain icons as links to social media sites for members to share their love for poker. The links will open to a new tab to allow easy navigation and accessible to the visually impaired who may be using a screen reader, by the use of aria labels.
   - The footer is valuable to the user as it encourages them to stay connected and up to date via social media.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/)
 
 - __Gallery__
 
   - Most of the images on this site wwill be sourced from Pexel spiced with some real-life images from previous KPC poker events.
-  - All the images will be compressed in file size via Adobe  Photoshop or Preview on Mac in order to enhance the user experience. 
+  - All the images will be processed and compressed in file size via Adobe  Photoshop or Preview on Mac in order to enhance the user experience. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery](https://github.com)
 
 - __The Sign Up Page__
 
   - This page will help the user to get signed up for upcoming poker tournaments under the auspices of KPC. The user will be able specify wich date they would like take a seat with a maximum of 16 attendes at every occation. The user will be notified of their status via email from the KPC administrator.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Sign Up](https://github.com/)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
