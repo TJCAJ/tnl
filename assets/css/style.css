@@ -13,7 +13,7 @@ body {
     font-family: "Big Shoulders Display", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #000000ec;
+    color: hsla(0, 20%, 97%, 0.925);
 }
 
 h1,
@@ -21,22 +21,23 @@ h2,
 h3 {
     font-family: "Paytone One", sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 300;
     color: #e21111;
 }
 
 #logo {
     float: left;
-    font-size: 300%;
+    font-size: 200%;
 }
 
 #menu {
-    font-size: 120%;
+    font-size: 110%;
     letter-spacing: 2px;
+    color: hsla(0, 20%, 97%, 0.925);
 }
 
 #menu, #logo {
-    line-height: 100px;
+    line-height: 50px;
 }
 
 #menu li { 
@@ -62,6 +63,5 @@ h3 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background-image: url('../images/hero-image.webp') no-repeat center center;
-
+    background: url('../images/hero-image.webp') no-repeat center center;
 }
