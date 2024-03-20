@@ -70,6 +70,10 @@ In addition, you may also use this section to discuss plans for additional featu
 - The webiste can also be structured in a more informative and user friendly way with more content that describes the most popular poker games in more details, with tips and tricks to improve your game as a poker player.
 - More links can also be added to various online poker card rooms with descriptions of what services the provide.
 
+## Design
+
+![Home](http:..png)
+
 ## Testing 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
