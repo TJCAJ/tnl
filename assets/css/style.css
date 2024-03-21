@@ -64,9 +64,12 @@ h3 {
 /* header */
 header {
     background-color: #1a5508;
+    padding: 0 1 rem;
+    position: fixed;
+    z-index: 99;
     height: 5rem;
     width: 100%;
-    box-shadow: 10px solid #3a3a3a;
+    box-shadow: 0 2px 2px hwb(0 7% 93%);
 }
 
 
@@ -83,7 +86,7 @@ main {
     background: url('../images/hero-image.webp') no-repeat center center;
 }
 
-/* footer*/
+/* footer */
 footer {
     flex-wrap: wrap;
     height: 3rem;
