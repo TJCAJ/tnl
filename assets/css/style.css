@@ -31,15 +31,12 @@ h3 {
 
 #logo {
     display: flex;
-    float: flex;
     font-size: 180%;
     margin-left: 25px;
 }
 
 #menu {
-    display: flex;
     flex-direction: column-reverse;
-    float: flex;
     font-size: 110%;
     letter-spacing: 2px;
     color: hsla(0, 20%, 97%, 0.925);
@@ -50,11 +47,7 @@ h3 {
     line-height: 50px;
 }
 
-#menu li { 
-    float: right;
-    list-style-type: none;
-    margin-right: 25px;
-    margin-left: 25px;
+#menu > li { 
     margin-bottom: 1 em;
 }
 #menu a {
@@ -67,7 +60,7 @@ h3 {
 }
 
 .active {
-    border-bottom:  1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* header */
@@ -83,7 +76,7 @@ header {
     align-items: baseline;
 }
 
-header {
+header a {
     text-decoration: none;
     color: inherit;
 }
@@ -136,3 +129,25 @@ footer {
     background-color: #e21111;
 }
 
+/* Media query - tablets and larger devices (768px and up) */
+@media screen and (min-width 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: right;
+    }
+}
+
+#menu {
+    display: flex;
+}
+
+#menu > li {
+    padding-left: 1rem;
+}
+
+.nav-toggle-label {
+    display: block;
+}
