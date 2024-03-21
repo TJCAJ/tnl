@@ -19,50 +19,6 @@ body {
     color: hsla(0, 20%, 97%, 0.925);
 }
 
-h1,
-h2,
-h3 {
-    font-family: "Paytone One", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 300;
-    color: #e21111;
-}
-
-#logo {
-    display: flex;
-    font-size: 180%;
-    margin-left: 25px;
-}
-
-#menu {
-    flex-direction: column-reverse;
-    font-size: 110%;
-    letter-spacing: 2px;
-    color: hsla(0, 20%, 97%, 0.925);
-    list-style-type: none;
-}
-
-#menu, #logo {
-    line-height: 50px;
-}
-
-#menu > li { 
-    margin-bottom: 1 em;
-}
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 2px #fafafa;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
 /* header */
 header {
     background-color: #1a5508;
@@ -79,6 +35,50 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Paytone One", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #e21111;
+}
+
+#logo {
+    display: flex;
+    font-size: 180%;
+    margin-left: 25px;
+}
+
+#menu, #logo {
+    line-height: 50px;
+}
+
+#menu {
+    flex-direction: column-reverse;
+    font-size: 110%;
+    letter-spacing: 2px;
+    color: hsla(0, 20%, 97%, 0.925);
+    list-style-type: none;
+}
+
+#menu > li { 
+    margin-bottom: 1 em;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 2px #fafafa;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Navbar styles with dropdown bar */
