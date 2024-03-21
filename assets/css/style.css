@@ -24,19 +24,25 @@ h2,
 h3 {
     font-family: "Paytone One", sans-serif;
     text-transform: uppercase;
+    letter-spacing: 1px;
     font-weight: 300;
     color: #e21111;
 }
 
 #logo {
-    float: left;
+    float: center;
     font-size: 200%;
+    margin-left: 50px;
 }
 
 #menu {
+    display: flex;
+    flex-direction: row-reverse;
+    float: right;
     font-size: 110%;
     letter-spacing: 2px;
     color: hsla(0, 20%, 97%, 0.925);
+    list-style-type: none;
 }
 
 #menu, #logo {
@@ -47,6 +53,7 @@ h3 {
     float: right;
     list-style-type: none;
     margin-right: 50px;
+    margin-bottom: 1 em;
 }
 #menu a {
     text-decoration: none ;
@@ -54,7 +61,7 @@ h3 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 2px #fafafa;
 }
 
 .active {
@@ -72,6 +79,10 @@ header {
     box-shadow: 0 2px 2px hwb(0 7% 93%);
 }
 
+header {
+    text-decoration: none;
+    color: inherit;
+}
 
 /* main section */
 main {
