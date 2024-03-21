@@ -30,16 +30,16 @@ h3 {
 }
 
 #logo {
-    float: center;
-    font-size: 200%;
-    padding-top: 25px;
-    margin-left: 50px;
+    display: flex;
+    float: flex;
+    font-size: 180%;
+    margin-left: 25px;
 }
 
 #menu {
     display: flex;
-    flex-direction: row-reverse;
-    float: right;
+    flex-direction: column-reverse;
+    float: flex;
     font-size: 110%;
     letter-spacing: 2px;
     color: hsla(0, 20%, 97%, 0.925);
@@ -53,11 +53,12 @@ h3 {
 #menu li { 
     float: right;
     list-style-type: none;
-    margin-right: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
     margin-bottom: 1 em;
 }
 #menu a {
-    text-decoration: none ;
+    text-decoration: none;
     color: inherit;
 }
 
@@ -75,9 +76,11 @@ header {
     padding: 0 1 rem;
     position: fixed;
     z-index: 99;
-    height: 5rem;
     width: 100%;
     box-shadow: 0 2px 2px hwb(0 7% 93%);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header {
@@ -93,13 +96,30 @@ nav {
     box-shadow: 0 2px 0px hwb(0 7% 93%);
     padding: 0 1 rem;
     display: none;
+    top: 100%;
+    left: 0;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    margin-right: 25px;
 }
 
 /* main section */
 main {
-    /* Make main. element push fotter down */
+    /* Make main. element push footer down */
     flex: 1 0 auto;
     background-color: black;
+    margin-top: 47px;
 }
 
 #hero-image {
