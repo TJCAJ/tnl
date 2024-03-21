@@ -10,6 +10,9 @@
 
 /* General styles */
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: "Big Shoulders Display", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -58,10 +61,33 @@ h3 {
     border-bottom:  1px solid #3a3a3a;
 }
 
-/* hero-image */
+/* header */
+header {
+    background-color: #1a5508;
+    height: 5rem;
+    width: 100%;
+    box-shadow: 10px solid #3a3a3a;
+}
+
+
+/* main section */
+main {
+    /* Make main. element push fotter down */
+    flex: 1 0 auto;
+    background-color: black;
+}
 
 #hero-image {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
 }
+
+/* footer*/
+footer {
+    flex-wrap: wrap;
+    height: 3rem;
+    width: 100%;
+    background-color: #e21111;
+}
+
