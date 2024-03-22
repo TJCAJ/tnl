@@ -142,6 +142,7 @@ footer {
         width: fit-content;
         padding-right: 1rem;
         justify-content: space-between;
+    }
     #menu {
         display: flex;
         flex-direction: row;
