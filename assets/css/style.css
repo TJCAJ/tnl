@@ -34,7 +34,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: inherit;
+    color: #fafafa;
 }
 
 h1,
@@ -63,7 +63,7 @@ h3 {
     flex-direction: column;
     font-size: 110%;
     letter-spacing: 2px;
-    color: hsla(0, 20%, 97%, 0.925);
+    color: #fafafa;
     list-style-type: none;
     margin-right: 25px;
 }
@@ -134,6 +134,12 @@ footer {
 
 #social-networks {
     display: flex;
+    flex-direction: row;
+    font-size: 200%;
+    justify-content: space-around;
+    color: #fafafa;
+    list-style-type: none;
+    margin-top: 5px;
 }
 
 /* Media query - tablets and larger devices (768px and up) */
