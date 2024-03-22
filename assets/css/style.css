@@ -57,12 +57,15 @@ h3 {
     line-height: 50px;
 }
 
+/* Navigation */
+
 #menu {
-    flex-direction: column-reverse;
+    flex-direction: column;
     font-size: 110%;
     letter-spacing: 2px;
     color: hsla(0, 20%, 97%, 0.925);
     list-style-type: none;
+    margin-right: 25px;
 }
 
 #menu > li { 
@@ -95,16 +98,16 @@ nav {
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
-    display: checked;
+    display: block;
 }
 
 #nav-toggle {
-    display: none;
+    display: block;
 }
 
 .nav-toggle-label {
     font-size: 2rem;
-    margin-right: 25px;
+    padding-right: 1rem;
 }
 
 /* main section */
@@ -135,19 +138,21 @@ footer {
     nav {
         display: block;
         position: relative;
+        box-shadow: none;
         width: fit-content;
-        padding-right: right;
+        padding-right: 1rem;
+        justify-content: space-between;
+    #menu {
+        display: flex;
+        flex-direction: row;
     }
 }
 
-#menu {
-    display: flex;
-}
 
 #menu > li {
     padding-left: 1rem;
 }
 
 .nav-toggle-label {
-    display: block;
+    display: none;
 }
