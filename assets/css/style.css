@@ -119,10 +119,12 @@ main {
     margin-top: 47px;
 }
 
-#hero-image {
-    height: 500px;
+/* hero image */
+
+/* responsive sizing of image on different screen sizes to keep aspect ratio */
+#hero-image img {
+    height: auto;  
     width: 100%;
-    background: url('../images/hero-image.webp') no-repeat center center;
 }
 
 #website-intro {(
@@ -132,7 +134,6 @@ main {
 
 #website-intro > p {
    text-align: justify;
-   margin-left: 100px;
 }
 
 
