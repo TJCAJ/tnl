@@ -28,7 +28,7 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px hwb(0 7% 93%);
     display: flex;
-    justify-content: space-between;
+    justify-items: right;
     align-items: baseline;
 }
 
@@ -149,13 +149,20 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* Header */
+    header {
+        width: 100%;
+        display: flex;
+       justify-content: space-between;
+    }
+
     nav {
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+        padding-right: 2rem;
         justify-content: space-between;
+        box-sizing: border-box;
     }
 
     #menu {
@@ -165,7 +172,7 @@ footer {
 }
 
 
-#menu>li {
+#menu > li {
     padding-left: 1rem;
 }
 
