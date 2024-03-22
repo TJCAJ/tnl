@@ -71,7 +71,7 @@ h3 {
 }
 
 #menu>li {
-    margin-bottom: 1 em;
+    margin-bottom: 1rem;
 }
 
 #menu a {
@@ -96,7 +96,6 @@ nav {
     padding: 0 1 rem;
     display: none;
     top: 100%;
-    left: 0;
 }
 
 /* Nav toggle */
@@ -105,12 +104,11 @@ nav {
 }
 
 #nav-toggle {
-    display: block;
+    display: none;
 }
 
 .nav-toggle-label {
     font-size: 2rem;
-    padding-right: 1rem;
 }
 
 /* main section */
@@ -126,6 +124,17 @@ main {
     width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
 }
+
+#website-intro {(
+   flex-wrap: wrap;
+   height: 500px;
+}
+
+#website-intro > p {
+   text-align: justify;
+   margin-left: 100px;
+}
+
 
 /* footer */
 footer {
@@ -152,7 +161,7 @@ footer {
     header {
         width: 100%;
         display: flex;
-       justify-content: space-between;
+        justify-content: space-between;
     }
 
     nav {
@@ -162,7 +171,6 @@ footer {
         width: fit-content;
         padding-right: 2rem;
         justify-content: space-between;
-        box-sizing: border-box;
     }
 
     #menu {
@@ -171,8 +179,7 @@ footer {
     }
 }
 
-
-#menu > li {
+#menu>li {
     padding-left: 1rem;
 }
 
