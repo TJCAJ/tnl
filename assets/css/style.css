@@ -39,7 +39,9 @@ header a {
 
 h1,
 h2,
-h3 {
+h3,
+h5,
+h6 {
     font-family: "Paytone One", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -127,13 +129,19 @@ main {
     width: 100%;
 }
 
-#website-intro {(
+#website-intro {
    flex-wrap: wrap;
    height: 500px;
+   margin-top: 50px;
 }
 
+#website-intro > h2, h6 {
+    text-align: center;
+ }
+
 #website-intro > p {
-   text-align: justify;
+   text-align: center;
+   text-
 }
 
 
