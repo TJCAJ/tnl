@@ -129,7 +129,7 @@ main {
     width: 100%;
 }
 
-#website-intro {
+#website-intro { 
    flex-wrap: wrap;
    height: 500px;
    margin-top: 50px;
