@@ -166,6 +166,42 @@ footer {
     margin-top: 5px;
 }
 
+/** Gallery section **/
+
+#bilder {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 125px;
+    margin-bottom: 40px;
+    background-color: hwb(0 2% 98%);
+}
+
+.gallery-container {
+    display: flex;
+    max-width: 6000x;
+    flex-wrap: wrap;
+}
+
+.container img {
+    width: 100%; 
+    padding: 3px 3px 3px 3px;
+}
+
+/* Media query - tablets and larger devices (600px and up) */
+@media only screen and (min-width: 600px) {
+    .container img {
+        width: 50%;
+    }
+
+    #bilder {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      }
+}
+
 /* Media query - tablets and larger devices (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -199,41 +235,7 @@ footer {
     display: none;
 }
 
-/** Gallery section **/
-
-#bilder {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    margin-top: 125px;
-    margin-bottom: 40px;
-    background-color: hwb(0 2% 98%);
-}
-
-.gallery-container {
-    display: flex;
-    max-width: 6000x;
-    flex-wrap: wrap;
-}
-
-.container img {
-    width: 100%; 
-    padding: 3px 3px 3px 3px;
-}
-
-@media only screen and (min-width: 600px) {
-    .container img {
-        width: 50%;
-    }
-
-    #bilder {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-      }
-}
-
+/* Media query - tablets and larger devices (900px and up) */
     @media only screen and (min-width: 900px) {
         .container img {
             width: 25%;
@@ -241,6 +243,7 @@ footer {
         }
     }
 
+    /* Media query - tablets and larger devices (min-height 1300px and up) */
     @media only screen and (min-height: 1300px) {
         .content {
             min-height: calc(100vh - 70px);
@@ -249,7 +252,7 @@ footer {
           .footer {
             flex-shrink: 0;
           }
-          
+
         .container img {
             width: 25%;
             height: 25%;
