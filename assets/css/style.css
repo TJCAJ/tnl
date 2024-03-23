@@ -240,3 +240,18 @@ footer {
             height: 25%;
         }
     }
+
+    @media only screen and (min-height: 1300px) {
+        .content {
+            min-height: calc(100vh - 70px);
+          }
+
+          .footer {
+            flex-shrink: 0;
+          }
+          
+        .container img {
+            width: 25%;
+            height: 25%;
+        }
+    }
