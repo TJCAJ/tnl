@@ -16,7 +16,7 @@ body {
     font-family: "Big Shoulders Display", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: hsla(0, 20%, 97%, 0.925);
+    color: #020202ec;
 }
 
 /* header */
@@ -195,3 +195,45 @@ footer {
 .nav-toggle-label {
     display: none;
 }
+
+/** Gallery section **/
+
+#bilder {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 125px;
+    margin-bottom: 40px;
+    background-color: hwb(0 2% 98%);
+}
+
+.gallery-container {
+    display: flex;
+    max-width: 6000x;
+    flex-wrap: wrap;
+}
+
+.container img {
+    width: 100%; 
+    padding: 3px 3px 3px 3px;
+}
+
+@media only screen and (min-width: 600px) {
+    .container img {
+        width: 50%;
+    }
+
+    #bilder {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      }
+}
+
+    @media only screen and (min-width: 900px) {
+        .container img {
+            width: 25%;
+            height: 25%;
+        }
+    }
