@@ -3,7 +3,6 @@
 - Each button on the navigation bar were tested to make sure it brought you to the correct place.
 - The logo in the header was tested to make sure you return to the home page when it is clicked on.
 - Each social media icon in the footer was tested to make sure they not only opened in the correct social media pages but that they also opened in a new tab.
-- The email icon in the footer was tested to make sure it opened correctly
 - Each field of the Login/Sig up form was tested to make sure if it was empty a warning popped up to let the user know the field was required and that the submit button worked as intended. 
 
 ## Gallery
