@@ -21,7 +21,7 @@ body {
 
 .content {
     min-height: calc(100vh - 70px);
-  }
+}
 
 /* header */
 header {
@@ -129,28 +129,27 @@ main {
 
 /* responsive sizing of image on different screen sizes to keep aspect ratio */
 #hero-image img {
-    height: auto;  
+    height: auto;
     width: 100%;
 }
 
 #website-intro { 
-   flex-wrap: wrap;
-   height: 500px;
-   margin-top: 50px;
+    height: 500px;
+    margin-top: 50px;
 }
 
-#website-intro > h2, h6 {
+#website-intro>h2,
+h6 {
     text-align: center;
- }
+}
 
-#website-intro > p {
-   text-align: center;
+#website-intro>p {
+    text-align: center;
 }
 
 
 /* footer */
 footer {
-    flex-wrap: wrap;
     height: 50px;
     width: 100%;
     background-color: #e21111;
@@ -174,7 +173,8 @@ footer {
     justify-items: center;
     margin-top: 125px;
     margin-bottom: 40px;
-    background-color: hwb(0 2% 98%);
+    background-color:#000000
+
 }
 
 .gallery-container {
@@ -184,7 +184,7 @@ footer {
 }
 
 .container img {
-    width: 100%; 
+    width: 100%;
     padding: 3px 3px 3px 3px;
 }
 
@@ -199,7 +199,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
         width: 90%;
-      }
+    }
 }
 
 /* Media query - tablets and larger devices (768px and up) */
@@ -236,25 +236,25 @@ footer {
 }
 
 /* Media query - tablets and larger devices (900px and up) */
-    @media only screen and (min-width: 900px) {
-        .container img {
-            width: 25%;
-            height: 25%;
-        }
+@media only screen and (min-width: 900px) {
+    .container img {
+        width: 25%;
+        height: 25%;
+    }
+}
+
+/* Media query - tablets and larger devices (min-height 1300px and up) */
+@media only screen and (min-height: 1300px) {
+    .content {
+        min-height: calc(100vh - 70px);
     }
 
-    /* Media query - tablets and larger devices (min-height 1300px and up) */
-    @media only screen and (min-height: 1300px) {
-        .content {
-            min-height: calc(100vh - 70px);
-          }
-
-          .footer {
-            flex-shrink: 0;
-          }
-
-        .container img {
-            width: 25%;
-            height: 25%;
-        }
+    .footer {
+        flex-shrink: 0;
     }
+
+    .container img {
+        width: 25%;
+        height: 25%;
+    }
+}
