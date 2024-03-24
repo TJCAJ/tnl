@@ -37,6 +37,12 @@ header {
     align-items: baseline;
 }
 
+.site-header {
+    display: flex;
+    justify-content: flex-center;
+    align-items: right;
+}
+
 header a {
     text-decoration: none;
     color: #fafafa;
@@ -134,7 +140,7 @@ main {
     width: 100%;
 }
 
-#website-intro { 
+#website-intro {
     height: 500px;
     margin-top: 50px;
 }
@@ -174,8 +180,7 @@ footer {
     justify-items: center;
     margin-top: 125px;
     margin-bottom: 40px;
-    background-color:#000000
-
+    background-color: #000000
 }
 
 .gallery-container {
