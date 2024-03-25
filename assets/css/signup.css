@@ -24,6 +24,29 @@ body {
     overflow-x: hidden;
 }
 
+header {
+    background-color: #1a5508;
+    padding: 0 1 rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px hwb(0 7% 93%);
+    display: flex;
+    justify-items: right;
+    align-items: baseline;
+}
+
+.site-header {
+    display: flex;
+    justify-content: flex-center;
+    align-items: right;
+}
+
+header a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
 img {
   max-width: 100%;
   height: auto;
