@@ -36,15 +36,33 @@ header {
     align-items: baseline;
 }
 
-.site-header {
-    display: flex;
-    justify-content: flex-center;
-    align-items: right;
-}
-
 header a {
     text-decoration: none;
     color: #fafafa;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+    font-family: "Paytone One", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #e21111;
+}
+
+/* Navigation */
+
+#menu {
+  flex-direction: column;
+  font-size: 110%;
+  letter-spacing: 2px;
+  color: #fafafa;
+  list-style-type: none;
+  margin-left: 1rem;
+  padding-block-end: 10px;
 }
 
 img {
