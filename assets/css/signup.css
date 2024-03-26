@@ -24,6 +24,7 @@ body {
     overflow-x: hidden;
 }
 
+/* header */
 header {
     background-color: #1a5508;
     padding: 0 1 rem;
@@ -51,6 +52,20 @@ h6 {
     letter-spacing: 1px;
     font-weight: 300;
     color: #e21111;
+}
+
+.logo {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	display: block;
+	z-index: 100;
+	transition: all 250ms linear;
+}
+.logo img {
+	height: 180px;
+	width: auto;
+	display: block;
 }
 
 /* Navigation */
@@ -331,20 +346,6 @@ h6 span{
   background-color: black;
   color: #fafafa;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
-}
-
-.logo {
-	position: absolute;
-	top: 30px;
-	right: 30px;
-	display: block;
-	z-index: 100;
-	transition: all 250ms linear;
-}
-.logo img {
-	height: 180px;
-	width: auto;
-	display: block;
 }
 
 /* Media query - tablets and larger devices (600px and up) */
