@@ -36,6 +36,12 @@ header {
     align-items: baseline;
 }
 
+.site-header {
+    display: flex;
+    justify-content: flex-center;
+    align-items: right;
+}
+
 header a {
     text-decoration: none;
     color: #fafafa;
@@ -318,7 +324,7 @@ h6 span{
 	transition: all 250ms linear;
 }
 .logo img {
-	height: 26px;
+	height: 180px;
 	width: auto;
 	display: block;
 }
