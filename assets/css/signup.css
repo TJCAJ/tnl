@@ -347,6 +347,67 @@ h6 span{
 	display: block;
 }
 
+/* Media query - tablets and larger devices (600px and up) */
+@media only screen and (min-width: 600px) {
+  .container img {
+      width: 50%;
+  }
+
+  #bilder {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+  }
+}
+
+/* Media query - tablets and larger devices (768px and up) */
+@media screen and (min-width: 768px) {
+
+  /* Header */
+  header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  nav {
+      display: block;
+      position: relative;
+      box-shadow: none;
+      width: fit-content;
+      padding-right: 2rem;
+      justify-content: space-between;
+  }
+
+  #menu {
+      display: flex;
+      flex-direction: row;
+  }
+}
+
+#menu>li {
+  padding-left: 1rem;
+}
+
+.nav-toggle-label {
+  display: none;
+}
+
+/* Media query - tablets and larger devices (900px and up) */
+@media only screen and (min-width: 900px) {
+  .container img {
+      width: 25%;
+      height: 25%;
+  }
+}
+
+/* Media query - tablets and larger devices (min-height 1300px and up) */
+@media only screen and (min-height: 1300px) {
+  .content {
+      min-height: calc(100vh - 70px);
+  }
+
 /* footer */
 footer {
   height: 50px;
