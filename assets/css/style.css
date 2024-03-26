@@ -106,16 +106,26 @@ nav {
 }
 
 /* Nav toggle */
-#nav-toggle:checked~nav {
+#toggle:checked~nav {
     display: block;
 }
 
-#nav-toggle {
-    display: none;
+#toggle {
+    display: flex;
+    margin-right: 10px;
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 4rem;
+}
+
+input[type=checkbox].hidden{
+    opacity: 0;
+  }
+
+.fa-solid fa-bars {
+    display: flex;
+    margin-right: 10px;
 }
 
 /* main section */
