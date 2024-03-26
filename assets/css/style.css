@@ -54,15 +54,19 @@ h6 {
     color: #e21111;
 }
 
-#logo {
-    display: flex;
-    font-size: 180%;
-    margin-left: 25px;
+.logo {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: block;
+    z-index: 100;
+    transition: all 250ms linear;
 }
 
-#menu,
-#logo {
-    line-height: 50px;
+.logo img {
+    height: 180px;
+    width: auto;
+    display: block;
 }
 
 /* Navigation */
@@ -75,6 +79,7 @@ h6 {
     list-style-type: none;
     margin-left: 1rem;
     padding-block-end: 10px;
+    line-height: 50px;
 }
 
 #menu>li {
@@ -118,8 +123,8 @@ nav {
     font-size: 4rem;
 }
 
-input[type=checkbox].hidden{
-  opacity: 0;
+input[type=checkbox].hidden {
+    opacity: 0;
 }
 
 .fa-solid fa-bars {
@@ -156,22 +161,6 @@ h6 {
 #website-intro>p {
     text-align: center;
 }
-
-.logo {
-	position: absolute;
-	top: 30px;
-	right: 30px;
-	display: block;
-	z-index: 100;
-	transition: all 250ms linear;
-}
-.logo img {
-	height: 180px;
-	width: auto;
-	display: block;
-}
-
-
 
 /* footer */
 footer {
