@@ -182,6 +182,12 @@ footer {
   margin-top: 5px;
 }
 
+/* Form section */
+#signup {
+  margin-top: 125px;
+  margin-bottom: 40px;
+}
+
 
 img {
   max-width: 100%;
@@ -534,4 +540,3 @@ h6 span {
     height: 25%;
   }
 }
-
