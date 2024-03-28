@@ -174,12 +174,18 @@ main {
 #website-center {
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 25px;
+    margin: bottom 75px;
 }
 
-#website-intro>h2,
+#website-intro>h1,
 h6 {
     text-align: center;
+}
+
+.bkg-section-images {
+    height: 1em;
+    width: auto;
 }
 
 /* footer */
@@ -266,6 +272,15 @@ footer {
 
 .nav-toggle-label {
     display: none;
+}
+
+.bkg-section-images {
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    align-items: center;
 }
 
 /* Media query - tablets and larger devices (900px and up) */
