@@ -58,13 +58,16 @@ h6 {
     display: flex;
     align-items: center;
     text-align: center;
+    padding: 35px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .box {
     display: flexbox;
     text-align: start;
     padding-left: 20px;
-    padding right: 20px;
+    padding-right: 20px;
     border-radius: 25px;
     margin-left: 25px;
     height: auto;
@@ -160,7 +163,7 @@ input[type=checkbox].hidden {
 main {
     /* Make main. element push footer down */
     flex: 1 0 auto;
-    background-color: #1a5508;
+    background-color: #fafafa;
     margin-top: 60px;
     flex-direction: column;
 }
@@ -169,10 +172,10 @@ main {
 
 /* responsive sizing of image on different screen sizes to keep aspect ratio */
 #hero-image img {
-    margin-top: 50px;
+    margin-top: 0px;
     height: auto;
     width: 100%;
-    margin-bottom: auto;
+    margin-bottom: 0px;
 }
 
 #website-center {
@@ -195,6 +198,29 @@ main {
     background-size: cover;
     overflow-x: hidden;
 }
+
+
+/* Meetup Times */
+#meetup-times {
+    background: url('../images/markers-on-table-small.webp') no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#meetup-times div {
+    background-color: rgba(0, 0, 0, .5);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row. */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time dives over the background image. */
+    border: 3px solid #1a5508;
+}
+
 
 /* footer */
 footer {
