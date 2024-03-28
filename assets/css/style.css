@@ -11,7 +11,7 @@ body {
     font-style: normal;
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-color: #1a5508;
     overflow-x: hidden;
     line-height: inherit;
     box-sizing: border-box;
@@ -24,11 +24,10 @@ body {
 /* header */
 header {
     background-color: #1a5508;
-    padding: 0 1 rem;
+    padding: 0 0 rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px hwb(0 7% 93%);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -48,7 +47,7 @@ h6 {
     font-family: "Paytone One", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #e21111;
+    color: #fafafa
 }
 
     h1, h4, p {
@@ -69,9 +68,10 @@ h6 {
     border-radius: 25px;
     margin-left: 25px;
     height: auto;
-    width: 600px;
-    background-color: #1a5508;
+    width: 500px;
+    background-color: #e21111;
     overflow-wrap: break-word;
+    box-shadow: 0 2px 2px hwb(0 7% 93%);
 }
 
 p {
@@ -160,8 +160,8 @@ input[type=checkbox].hidden {
 main {
     /* Make main. element push footer down */
     flex: 1 0 auto;
-    background-color: black;
-    margin-top: 47px;
+    background-color: #1a5508;
+    margin-top: 60px;
     flex-direction: column;
 }
 
