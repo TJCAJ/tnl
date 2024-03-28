@@ -56,20 +56,13 @@ h6 {
   color: #e21111;
 }
 
-.logo {
+.logo-tnl {
   position: absolute;
-  top: 30px;
-  right: 30px;
+  top: -15px;
+  left: 10px;
   display: block;
   z-index: 100;
   transition: all 250ms linear;
-}
-
-.logo img {
-  height: 180px;
-  width: auto;
-  display: block;
-}
 
 /* Navigation */
 
@@ -83,7 +76,6 @@ h6 {
   padding-block-end: 10px;
   line-height: 50px;
 }
-
 
 #menu>li {
   margin-bottom: 1rem;
@@ -108,7 +100,7 @@ nav {
   background-color: #1a5508;
   width: 100%;
   box-shadow: 0 2px 0px hwb(0 7% 93%);
-  padding: 0 1 rem;
+  padding: 0rem 1rem;
   display: none;
   top: 100%;
 }
@@ -143,13 +135,17 @@ main {
   margin-top: 47px;
 }
 
-/* hero image */
+}
+.logo {
+  position: absolute;
+  top: -15px;
+  left: 10px;
+  display: block;
+  z-index: 100;
+  transition: all 250ms linear;
+}
 
 /* responsive sizing of image on different screen sizes to keep aspect ratio */
-#hero-image img {
-  height: auto;
-  width: 100%;
-}
 
 #website-intro {
   height: 500px;
@@ -513,10 +509,11 @@ h6 span {
   nav {
     display: block;
     position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 2rem;
-    justify-content: space-between;
+    background-color: #1a5508;
+    box-shadow: 0 2px 0px hwb(0 7% 93%);
+    width: 100%;
+    padding: 2rem 2rem;
+    top: 100%;
   }
 
   #menu {

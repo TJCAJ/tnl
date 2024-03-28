@@ -75,10 +75,10 @@ p {
     padding: 10px;
 }
 
-.logo {
+.logo-tnl {
     position: absolute;
-    top: 30px;
-    right: 30px;
+    top: -15px;
+    left: 10px;
     display: block;
     z-index: 100;
     transition: all 250ms linear;
@@ -125,8 +125,9 @@ nav {
     position: absolute;
     background-color: #1a5508;
     width: 100%;
+    left: 0;
     box-shadow: 0 2px 0px hwb(0 7% 93%);
-    padding: 0 1 rem;
+    padding: 0rem 1rem;
     display: none;
     top: 100%;
 }
@@ -159,6 +160,7 @@ main {
     flex: 1 0 auto;
     background-color: black;
     margin-top: 47px;
+    flex-direction: column;
 }
 
 /* hero image */
