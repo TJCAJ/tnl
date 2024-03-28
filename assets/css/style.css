@@ -206,7 +206,7 @@ footer {
     justify-content: space-around;
     color: #fafafa;
     list-style-type: none;
-    align-items: center;
+    margin-top: 5px;
 }
 
 /** Gallery section **/
