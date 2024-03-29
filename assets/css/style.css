@@ -273,7 +273,7 @@ nav {
 }
 
 #menu {
-    flex-direction: column;
+    flex-direction: row;
     float: left;
     font-size: 110%;
     letter-spacing: 2px;
@@ -305,6 +305,17 @@ nav {
         position: relative;
     }
 
+    #menu {
+        flex-direction: row;
+        float: left;
+        font-size: 110%;
+        letter-spacing: 2px;
+        color: #fafafa;
+        list-style-type: none;
+        margin-left: 1rem;
+        padding-block-end: 10px;
+        line-height: 50px;
+    }
     /* Header */
     header {
         width: 100%;

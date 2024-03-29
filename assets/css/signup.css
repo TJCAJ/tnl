@@ -59,14 +59,15 @@ h6 {
 .logo-tnl {
   position: absolute;
   top: -15px;
-  left: 10px;
+  right: 0px;
   display: block;
   z-index: 100;
   transition: all 250ms linear;
+}
 
 /* Navigation */
 
-#menu {
+#menu-signup {
   flex-direction: column;
   font-size: 110%;
   letter-spacing: 2px;
@@ -76,6 +77,7 @@ h6 {
   padding-block-end: 10px;
   line-height: 50px;
 }
+
 
 #menu>li {
   margin-bottom: 1rem;
@@ -105,28 +107,6 @@ nav {
   top: 100%;
 }
 
-/* Nav toggle */
-#toggle:checked~nav {
-  display: block;
-}
-
-#toggle {
-  display: block;
-}
-
-.nav-toggle-label {
-  font-size: 4rem;
-}
-
-input[type=checkbox].hidden {
-  opacity: 0;
-}
-
-.fa-solid fa-bars {
-  position: absolute;
-  margin-right: 10px;
-}
-
 /* main section */
 main {
   /* Make main. element push footer down */
@@ -135,7 +115,6 @@ main {
   margin-top: 47px;
 }
 
-}
 .logo {
   position: absolute;
   top: -15px;
@@ -519,15 +498,12 @@ h6 span {
   #menu {
     display: flex;
     flex-direction: row;
+    list-style-type: none;
   }
 }
 
 #menu>li {
   padding-left: 1rem;
-}
-
-.nav-toggle-label {
-  display: none;
 }
 
 /* Media query - tablets and larger devices (900px and up) */
