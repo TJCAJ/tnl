@@ -17,7 +17,7 @@ The looks and the feel of the website is created with red, white green and black
 
   - Visible on all the website pages. Consists of links to Home, Gallery and a Log in/Sign up page that will be responsive on all devices. This will allow users navigate the website's pages on any device in a seamless flow without having to revert back to the previous page via the ‘back’ button.
 
-  - This was also the thing I spent way to much time trying to figure out why the code didn’t respond as I intended with a similar solution to the Love Running project. Having the menu items visible on larger screens and just a menu bar on phones and similar devices with smaller screens.
+  - This was also the thing I spent way to much time trying to figure out why the code didn’t respond as I intended with a similar solution to the Love Running project. Having the menu items visible on larger screens and just a menu bar on phones and similar devices with smaller screens. At the end I decided to go with another solution and decsided to have the menu drectly in a column to the lef on smaller devices and as a column on devices with a size over 600px wide. I alos put the logo to the right in the navbar.
  
 
 ![Nav Bar Mockup]
@@ -33,15 +33,16 @@ The looks and the feel of the website is created with red, white green and black
 
 The main body of the homepage welcomes the user and intend to describe what and who it is created for via clear and consist information about KPC United’s poker club in Stockholm, Sweden. 
 
-#### KPC United
-Here I also added a separate description about the club, its members and a brief historic background as an introduction and helpful guide to new users and whoever is interested in joining the club.
+-__Who we are__
+Here I added a separate description about the club, its members and a brief historic background as an introduction and helpful guide to new users and whoever is interested in joining the club.
 
 
-- __The Nut Club Section__
+- __The Nut Club__
 
- Is a vital part of the website that depict an overview of recent winners and tournaments. This should encourage the user to use its member service and for others to join the club and share their passion for poker.
+ Is a vital part of the website with information about membership fees and membership perks for the user.
 
-This is also where we have a short description of some of the most common poker games with information that I’ve translated from the Swedish online version of the poker website [888poker](https://www.888poker.se/magazine/strategy/poker-variations)
+- __Membership Guidlines__
+As the website deals with gambling I decided to add this information about the guidlines for members of KPC United. This was made with feedback from friends and family about this project.
 
 - __Meetup Times section__
 
@@ -100,9 +101,9 @@ Information about the tests ca be viewed [here](Test.md)
 
 Favicon are customised  with favicon.io and copied into the code according to their info but when the website is loaded it’s not showing.
 
-The landing page mimage not responsive. As I talked with my mentor he helped me figure out that it was easier to add the hero image as a < img > tag in the HTML rather than as a url and styling in the CSS. This solved my issue.
+The landing page image not responsive. As I talked with my mentor he helped me figure out that it was easier to add the hero image as a < img > tag in the HTML rather than as a url and styling in the CSS. This solved my issue.
 
-The menu bar was a hard and lasting problem for me. I couldn’t understand why it didn’t work despite that the code looked good to me, accordingly to the method I’ve learned in the Love Running Project. The real breakthrough was unexpected. I simply made an error in the CSS styling as I started to add headings and paragraphs to the main section. I typed { ( which resulted in breaking up my code and (!) Showing the menu bar as intended on smaller devices with the correct function in place… However after several attempts to understand why this happened I had my second mentor call that pointed me in the right direction. I thought I knew it had something to do with the flex box properties…
+The menu bar was a hard and lasting problem for me. I couldn’t understand why it didn’t work despite that the code looked good to me, accordingly to the method I’ve learned in the Love Running Project. The real mental breakthrough was unexpected. I simply made an error in the CSS styling as I started to add headings and paragraphs to the main section. I typed { ( which resulted in breaking up my code and (!) Showing the menu bar as intended on smaller devices with the correct function in place… However after several attempts to understand why this happened I also had the misfortune to miss out on my second mentor call due to a late train... I thought I knew it had something to do with the flex box properties that I couldnt get my head around ths time, whilst I decided to go with anoter solution.
 
 GitPod in Visual studios on my MacBook Pro didn’t work as easy as working directly in the browser for me. As a beginner with all these new platforms and development tools it is a constant battle trying to understand why and how all functions works in each dev tool. A simple thing here was that I couldn’t change the text in Visual studios. Nothing happened and it was hard to google any answers. For me it was easier to stick to the browser that worked as submission day closed in.
 
@@ -126,7 +127,7 @@ The live link can be found [here](https://tjcaj.github.io/nutslow/)
 Inspiration for the readme file was taken from The Love Running Project as well as my mentor Gareth McGirr and my fellow students Martiless (flawlesscooking), Airdrie86 (life-hack) and Kera Cudmore.
 
 ## Acknowledgements
-Thanks to my mentor for helpful feedback and creative input as well as mental support and encouragement by my student Cohort facilitator on Slack, Kristyna Ci.
+Thanks to my mentor for helpful feedback and creative input as well as mental support and encouragement by my student Cohort facilitator on Slack, Kristyna Ci. I also relyed on The Love Running Project for basic structure of the website and the Meet Up Section. In addition I had a code implemented for the signup page from Ivan Grozdic at [codeopen.io](https://codepen.io/ig_design/pen/KKVQpVP)
 
 ## Technologies used
 
@@ -177,3 +178,5 @@ Images - Pexels and private pictures.
 Fonts - Google fonts.
 
 Icons - Font Awesome.
+
+Logo - Created with ai tool from [Design.com](https://www.design.com/)
