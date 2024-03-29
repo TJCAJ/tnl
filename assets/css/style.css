@@ -31,10 +31,11 @@ body {
 /* header */
 header {
     background-color: #1a5508;
-    padding: 0 0 rem;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
+    box-shadow: 0 2px 2px hwb(0 7% 93%);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -316,6 +317,7 @@ nav {
         padding-block-end: 10px;
         line-height: 50px;
     }
+
     /* Header */
     header {
         width: 100%;

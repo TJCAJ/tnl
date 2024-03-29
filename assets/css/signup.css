@@ -29,13 +29,13 @@ body {
 /* header */
 header {
   background-color: #1a5508;
-  padding: 0 1 rem;
+  padding: 0 1rem;
   position: fixed;
   z-index: 99;
   width: 100%;
   box-shadow: 0 2px 2px hwb(0 7% 93%);
   display: flex;
-  justify-items: right;
+  justify-content: space-around;
   align-items: baseline;
 }
 
@@ -51,7 +51,7 @@ h5,
 h6 {
   font-family: "Paytone One", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-weight: 300;
   color: #e21111;
 }
@@ -102,9 +102,9 @@ nav {
   background-color: #1a5508;
   width: 100%;
   box-shadow: 0 2px 0px hwb(0 7% 93%);
-  padding: 0rem 1rem;
   display: none;
   top: 100%;
+  margin-right: auto;
 }
 
 /* main section */
@@ -112,7 +112,20 @@ main {
   /* Make main. element push footer down */
   flex: 1 0 auto;
   background-color: black;
-  margin-top: 47px;
+  margin-top: 60px;
+  flex-direction: column;
+}
+
+/* hero image */
+
+/* responsive sizing of image on different screen sizes to keep aspect ratio */
+#hero-image img {
+  margin-top: 25px;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0px;
+  background-image: no-repeat center center / cover;
+  position: relative;
 }
 
 .logo {
