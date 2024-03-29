@@ -3,15 +3,13 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    margin-left: 0px;
-    margin-right: 0;
+    margin: 0;
     padding: 0;
     border: none;
 }
 
 /* General styles */
 body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: "Big Shoulders Display", sans-serif;
