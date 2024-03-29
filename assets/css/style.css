@@ -57,9 +57,11 @@ h6 {
     color: #fafafa
 }
 
-    h1, h4, p {
-       margin: 0;
-    }
+h1,
+h4,
+p {
+    margin: 0;
+}
 
 #website-center {
     display: flex;
@@ -96,7 +98,7 @@ p {
 .logo-tnl {
     position: absolute;
     top: -15px;
-    right: -50px;
+    right: 0px;
     display: block;
     z-index: 100;
     transition: all 250ms linear;
@@ -140,7 +142,7 @@ nav {
     box-shadow: 0 2px 0px hwb(0 7% 93%);
     display: none;
     top: 100%;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 /* main section */
@@ -238,7 +240,7 @@ footer {
 
 /* Media query - tablets and larger devices (600px and up) */
 @media only screen and (min-width: 600px) {
-    
+
     #hero-image img {
         margin-top: 0px;
         height: 100%;
@@ -267,7 +269,7 @@ nav {
     box-shadow: 0 2px 0px hwb(0 7% 93%);
     display: flex;
     top: 100%;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 #menu {
