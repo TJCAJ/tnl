@@ -3,7 +3,8 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    margin: 0;
+    margin-left: 0px;
+    margin-right: 0;
     padding: 0;
     border: none;
 }
@@ -136,6 +137,7 @@ p {
 /* Navbar styles with dropdown bar */
 nav {
     position: absolute;
+    padding-left: 15px;
     background-color: #1a5508;
     width: 100%;
     box-shadow: 0 2px 0px hwb(0 7% 93%);
@@ -149,20 +151,24 @@ main {
     /* Make main. element push footer down */
     flex: 1 0 auto;
     background-color: #1a5508;
-    margin-top: 60px;
+    margin-top: 50px;
     flex-direction: column;
 }
 
 /* hero image */
 
 /* responsive sizing of image on different screen sizes to keep aspect ratio */
-#hero-image img {
-    margin-top: 170px;
-    height: 100%;
-    width: 100%;
-    margin-bottom: 0px;
-    background-image: no-repeat center center / cover;
-    position: relative;
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/hero-image.webp");
+    height: 100vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
@@ -507,7 +513,7 @@ p {
     font-weight: 700;
   }
   
-  #signupform >.forn-section {
+  #signupform >.form-section {
     position: relative;
     width: 100%;
     display: block;
@@ -561,15 +567,6 @@ footer {
 /* Media query - tablets and larger devices (600px and up) */
 @media only screen and (min-width: 600px) {
 
-    #hero-image img {
-        margin-top: 0px;
-        height: 100%;
-        width: 100%;
-        margin-bottom: 0px;
-        background-image: no-repeat center center / cover;
-        position: relative;
-    }
-
     .container img {
         width: 50%;
     }
@@ -616,14 +613,6 @@ nav {
 /* Media query - tablets and larger devices (768px and up) */
 @media screen and (min-width: 768px) {
 
-    #hero-image img {
-        margin-top: 0px;
-        height: 100%;
-        width: 100%;
-        margin-bottom: 0px;
-        background-image: no-repeat center center / cover;
-        position: relative;
-    }
 
     #menu {
         flex-direction: row;
