@@ -16,6 +16,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
+    <link rel="stylesheet" href="background.styles_css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
@@ -26,13 +30,20 @@
         <a href="" class="logo-tnl" target="_blank">
             <img src="assets/images/tnl-logo_250.webp" style="width:75%; height:75%" alt=""></a>
 
-            <nav>
+            <nav class="navbar">
+                <div class="nutlow-title"></div>
+                <a href="#"  class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <div class="navbar-links"></div>
                 <ul id="menu">
                     <li>
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="gallery.html" class="active" id="galley">Gallery</a>
+                        <a href="gallery.html" class="active" id="gallery">Gallery</a>
                     </li>
                     <li>
                         <a href="signup.html">Sign Up</a>
@@ -47,7 +58,7 @@
             <h1>THIS IS US</h1>
         </div>
         <div class="signup-bkg-section-images">
-            <section id="bilder"><h2>Gallery</h2>
+            <section id="bilder"><h2></h2>
                 <div class="container">
                     <img src="assets/images/4-aces.webp" alt="4-aces-image">
                     <img src="assets/images/all-in.webp" alt="ppayer-all-inwith-chips-close-up-image">

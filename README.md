@@ -27,7 +27,7 @@ The looks and the feel of the website is created with red, white green and black
   - The landing page image is an ai generated picture that I’ve generated through [fotor.com](fotor.com) It consists of a classic poker table with a player visible in a dark and smoky room. This introduces the user to the website with a strong visual animation in order to to grab their attention. In a simple way it also reveals the main topic for the website.
 
 
-![Landing Page](https://github.com/)
+![Landing Page]
 
 ## Website information
 
@@ -50,8 +50,7 @@ As the website deals with gambling I decided to add this information about the g
   - My intention is that this section will be updated with status of seats taken and when it's fully booked, as the members sign up for each event via the Log in/Sign up form.
   - In this way this section helps to keep the user up to date.
 
-![Meetup Times](https://github.com/)
-
+![Meetup Times]
 - __The Footer__ 
 
   - The footer is visible on all pages. This section contain icons as links to social media sites for members to share their love for poker. The links opens to a new tab to allow easy navigation and accessible to the visually impaired who may be using a screen reader, by the use of aria labels.
@@ -59,7 +58,7 @@ As the website deals with gambling I decided to add this information about the g
   - The footer is valuable to the user as it encourages them to stay connected and up to date via social media.
 
 
-![Footer](https://github.com/)
+![Footer]
 
 - __Gallery__
 
@@ -67,13 +66,13 @@ As the website deals with gambling I decided to add this information about the g
   -  I’ve made sure that all the images was processed and compressed in file size via Adobe Photoshop to compressed .webp-files in order to enhance the user experience.
   - In order to make the Gallery responisve I was adviced by my mentor to look at a [Youtube video](https://youtu.be/2uvyx4YK_rQ?feature=shared) about Flexbox. This helped me in my efforts to create a responsive gallery.
 
-![Gallery](https://github.com)
+![Gallery]
 
 - __The Log in/Sign up Page__
 
   - This page will help the user to log in on their account and submit to upcoming poker tournaments under the auspices of KPC. The user will be able specify the date they would like take a seat with a maximum of 16 players at every event. The user will be notified of their status via email from the KPC administrator.
 
-![Sign Up](https://github.com/)
+![Sign Up]
 
 ### Features Left to Implement
 
@@ -84,18 +83,18 @@ As the website deals with gambling I decided to add this information about the g
 
 ## Design
 
-![Home](http:..png)
+![Home]
 
 ## Testing 
 
-Information about the tests ca be viewed [here](Test.md)
+Information about the tests will be viewed [here](Test.md)
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors will be passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors will not be found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ### Unfixed Bugs
 
@@ -103,7 +102,7 @@ Favicon are customised  with favicon.io and copied into the code according to th
 
 The landing page image not responsive. As I talked with my mentor he helped me figure out that it was easier to add the hero image as a < img > tag in the HTML rather than as a url and styling in the CSS. This solved my issue.
 
-The menu bar was a hard and lasting problem for me. I couldn’t understand why it didn’t work despite that the code looked good to me, accordingly to the method I’ve learned in the Love Running Project. The real mental breakthrough was unexpected. I simply made an error in the CSS styling as I started to add headings and paragraphs to the main section. I typed { ( which resulted in breaking up my code and (!) Showing the menu bar as intended on smaller devices with the correct function in place… However after several attempts to understand why this happened I also had the misfortune to miss out on my second mentor call due to a late train... I thought I knew it had something to do with the flex box properties that I couldnt get my head around ths time, whilst I decided to go with anoter solution.
+The menu bar was a hard and lasting problem for me. I couldn’t understand why it didn’t work despite that the code looked good to me, accordingly to the method I’ve learned in the Love Running Project. The real mental breakthrough was unexpected. I simply made an error in the CSS styling as I started to add headings and paragraphs to the main section. I typed { ( which resulted in breaking up my code and (!) Showing the menu bar as intended on smaller devices with the correct function in place… However after several attempts to understand why this happened I also had the misfortune to miss out on my second mentor call due to a late train... I thought I knew it had something to do with the flex box properties that I couldnt get my head around ths time, whilst I decided to try a solution with javascript from a youtube video. This is a better solution but it is still not quite ready.
 
 GitPod in Visual studios on my MacBook Pro didn’t work as easy as working directly in the browser for me. As a beginner with all these new platforms and development tools it is a constant battle trying to understand why and how all functions works in each dev tool. A simple thing here was that I couldn’t change the text in Visual studios. Nothing happened and it was hard to google any answers. For me it was easier to stick to the browser that worked as submission day closed in.
 
@@ -164,9 +163,9 @@ Google Dev Tools was used to edit code and check responsiveness before making th
 
 ## Content 
 
-- The text about poker games for the The Nut Club section was copied and translated from [888poker](https://www.888poker.se/magazine/strategy/poker-variations)
 - Code snippet for the the Log in/Sign Up page was taken [from](https://codepen.io/ig_design/pen/KKVQpVP)
 - The icons in the footer and the menu bar were taken from [Font Awesome](https://fontawesome.com/)
+- Information about creating a navbar toggle with Javascript was found on youtube [here](https://www.youtube.com/watch?v=At4B7A4GOPg)
 
 
 ## Media
