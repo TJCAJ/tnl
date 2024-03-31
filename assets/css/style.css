@@ -28,6 +28,16 @@ body {
 }
 
 /* header */
+header {
+  height: 15vh;
+  background-color: #1a5508;
+  z-index: 99;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 header a {
   text-decoration: none;
   color: #fafafa;
@@ -84,7 +94,6 @@ p {
 
 .logo-tnl {
   position: absolute;
-  top: -15px;
   left: 0px;
   display: block;
   z-index: 100;
@@ -104,12 +113,12 @@ p {
   color: #fafafa;
   list-style-type: none;
   margin-left: 1rem;
-  padding-block-end: 75px;
+  padding-block-end: 25px;
   line-height: 5px;
 }
 
-#menu >li {
-  margin-bottom: 1rem;
+#menu>li {
+  margin-bottom: .5rem;
 }
 
 /* Navbar styles with dropdown bar */
@@ -117,7 +126,6 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: end;
-  background-color: #1a5508;
   color: #fafafa;
   list-style-type: none;
 }
