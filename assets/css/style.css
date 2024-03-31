@@ -153,8 +153,8 @@ p {
 
 .toggle-button {
   position: absolute;
-  top: 1.5rem;
-  right: 2rem;
+  top: 2.5rem;
+  right: 1.5rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;
