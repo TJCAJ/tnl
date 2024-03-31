@@ -183,6 +183,7 @@ p {
   background-attachment: fixed;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1vh;
 }
 
 .logo {
@@ -570,8 +571,8 @@ footer {
   padding: 3px 3px 3px 3px;
 }
 
-/* Media query - tablets and larger devices (max 400px) */
-@media (max-width:400px) {
+/* Media query - tablets and larger devices (max 450px) */
+@media (max-width:450px) {
   .toggle-button {
     display: flex;
   }
@@ -602,6 +603,16 @@ footer {
 
   .navbar-links.active {
     display: flex;
+  }
+
+  .logo {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    display: block;
+    box-sizing: border-box;
+    z-index: 100;
+    transition: all 250ms linear;
   }
 
   /* Navigation */
