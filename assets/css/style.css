@@ -23,7 +23,7 @@ body {
 }
 
 .content-wrapper {
-  max-width: 2160px;
+  max-width: 100%;
   min-height: calc(100vh - 70px);
 }
 
@@ -568,7 +568,12 @@ footer {
 
 .container img {
   width: 100%;
+  align-items: center;
   padding: 3px 3px 3px 3px;
+}
+
+.signup-bkg-section-images {
+  background-image: url("../images/ace-close-up.webp");
 }
 
 /* Media query - tablets and larger devices (max 450px) */
@@ -672,13 +677,17 @@ footer {
 
   .container img {
     width: 50%;
+    align-items: center;
   }
 
   #bilder {
-    display: block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+
+    width: 100%;
   }
 }
 
