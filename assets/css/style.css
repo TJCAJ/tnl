@@ -76,8 +76,8 @@ p {
   border-radius: 25px;
   margin-top: 5vh;
   height: auto;
-  width: 37vh;
-  background-color: #e21111;
+  width: auto;
+  background-color: hwb(0 7% 11% / 0.537);
   overflow-wrap: break-word;
   box-shadow: 0 2px 2px hwb(0 7% 93%);
   align-items: start;
@@ -667,9 +667,8 @@ footer {
   }
 
   .navbar-links li:hover {
-    background-color: #3a3a3a;
+    background-color: #e21111;
   }
-
 
   .container img {
     width: 50%;
@@ -715,8 +714,9 @@ footer {
     margin-left: 25px;
     margin-top: 5vh;
     height: auto;
-    width: 37vh;
-    background-color: #e21111;
+    width: auto;
+    max-width: 45%;
+    background-color: hwb(0 7% 11% / 0.537);
     overflow-wrap: break-word;
     box-shadow: 0 2px 2px hwb(0 7% 93%);
   }
