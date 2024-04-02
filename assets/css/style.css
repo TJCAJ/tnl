@@ -95,6 +95,7 @@ p {
   background-color: #1a5508;
   color: #fafafa;
   list-style-type: none;
+  height: 15vh;
 }
 
 .navbar-links ul {
@@ -555,6 +556,7 @@ footer {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    height: auto;
   }
 
   .navbar-links ul {
