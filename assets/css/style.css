@@ -141,13 +141,13 @@ p {
 /* hero image with responsive sizing of image on different screen sizes to keep aspect ratio */
 .hero {
   display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   flex-direction: column;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("../images/hero_tnl_1.webp");
   height: 50vh;
-  align-self: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: center;
   align-items: center;
   justify-content: center;
   margin-bottom: 1vh;
@@ -583,6 +583,21 @@ footer {
 
 /* Media query - tablets and larger devices (600px and up) */
 @media only screen and (min-width: 600px) {
+
+  /* hero image */
+  .hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("../images/hero_tnl_1.webp");
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vh;
+  }
 
   .navbar-links ul {
     margin: 50px;
