@@ -160,33 +160,30 @@ p {
   border-radius: 10px;
 }
 
-/* hero image */
-
-/* responsive sizing of image on different screen sizes to keep aspect ratio */
+/* hero image with responsive sizing of image on different screen sizes to keep aspect ratio */
 .hero {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero_tnl_1.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("../images/hero_tnl_1.webp");
   height: 50vh;
   align-self: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: center;
   align-items: center;
   justify-content: center;
   margin-bottom: 1vh;
 }
 
-.logo {
-  position: absolute;
-  top: -15px;
-  left: 10px;
-  display: block;
-  z-index: 100;
-  transition: all 250ms linear;
-}
-
 /* responsive sizing of image on different screen sizes to keep aspect ratio */
+#website-center {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 35px;
+  margin-top: 0;
+  margin-bottom: auto;
+}
 
 #website-intro {
   height: 500px;
@@ -596,53 +593,17 @@ footer {
     padding: .5rem 2rem;
   }
 
+  .navbar-links li:hover {
+    background-color: #e21111;
+  }
+
   .navbar-links.active {
     display: flex;
-  }
-
-  .logo {
-    position: absolute;
-    top: -15px;
-    left: 10px;
-    display: block;
-    box-sizing: border-box;
-    z-index: 100;
-    transition: all 250ms linear;
-  }
-
-  /* Navigation */
-
-  #menu li {
-    flex-direction: column;
-    font-size: 110%;
-    letter-spacing: 2px;
-    color: #fafafa;
-    list-style-type: none;
-    margin-right: 3rem;
-    padding-block-end: 10px;
-    line-height: 5px;
-    display: none;
-  }
-
-  #menu>li {
-    margin-bottom: 1rem;
   }
 }
 
 /* Media query - tablets and larger devices (600px and up) */
 @media only screen and (min-width: 600px) {
-
-  #menu li {
-    flex-direction: row;
-    font-size: 110%;
-    letter-spacing: 2px;
-    color: #fafafa;
-    list-style-type: none;
-    margin-left: 1rem;
-    padding-block-end: 10px;
-    line-height: 5px;
-    display: flex;
-  }
 
   .navbar-links ul {
     margin: 50px;
@@ -679,15 +640,6 @@ footer {
 
     width: 100%;
   }
-}
-
-#website-center {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  padding: 35px;
-  margin-top: 0;
-  margin-bottom: auto;
 }
 
 /* Media query - tablets and larger devices (768px and up) */
