@@ -27,22 +27,6 @@ body {
   min-height: calc(100vh - 70px);
 }
 
-/* header */
-header {
-  height: 15vh;
-  background-color: #1a5508;
-  z-index: 99;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header a {
-  text-decoration: none;
-  color: #fafafa;
-}
-
 h1,
 h2,
 h3,
@@ -93,9 +77,8 @@ p {
 }
 
 .logo-tnl {
-  position: absolute;
+  display: flex;
   left: 0px;
-  display: block;
   z-index: 100;
   transition: all 250ms linear;
 }
@@ -125,19 +108,27 @@ p {
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
+  background-color: #1a5508;
   color: #fafafa;
   list-style-type: none;
 }
 
+.brand {
+  font-size: 4rem;
+  margin: 5rem;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
 .navbar-links ul {
-  margin: 25px;
-  padding: 10px;
+  margin: 0;
+  padding: 0;
   display: flex;
 }
 
 .navbar-links li {
   list-style-type: none;
+  font-size: 2rem;
 }
 
 .navbar-links li a {
@@ -148,7 +139,7 @@ p {
 }
 
 .navbar-links li:hover {
-  background-color: #e21111;
+  background-color: #3a3a3a;
 }
 
 .toggle-button {
@@ -158,8 +149,8 @@ p {
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  width: 30px;
-  height: 21px;
+  width: 40px;
+  height: 28px;
 }
 
 .toggle-button .bar {
@@ -576,8 +567,8 @@ footer {
   background-image: url("../images/ace-close-up.webp");
 }
 
-/* Media query - tablets and larger devices (max 450px) */
-@media (max-width:450px) {
+/* Media query - tablets and larger devices (max 600px) */
+@media (max-width:600px) {
   .toggle-button {
     display: flex;
   }
@@ -601,9 +592,8 @@ footer {
     text-align: center;
   }
 
-  .navbar-links li {
-    padding: .5rem 1 rem;
-    ;
+  .navbar-links li a {
+    padding: .5rem 2rem;
   }
 
   .navbar-links.active {
