@@ -87,23 +87,6 @@ p {
   border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navigation */
-
-#menu {
-  flex-direction: row;
-  font-size: 110%;
-  letter-spacing: 2px;
-  color: #fafafa;
-  list-style-type: none;
-  margin-left: 1rem;
-  padding-block-end: 25px;
-  line-height: 5px;
-}
-
-#menu>li {
-  margin-bottom: .5rem;
-}
-
 /* Navbar styles with dropdown bar */
 .navbar {
   display: flex;
