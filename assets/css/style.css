@@ -106,7 +106,7 @@ p {
 
 .navbar-links li {
   list-style-type: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .navbar-links li a {
@@ -122,8 +122,8 @@ p {
 
 .toggle-button {
   position: absolute;
-  top: 2.5rem;
-  right: 1.5rem;
+  top: 3rem;
+  right: 2rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -600,8 +600,8 @@ footer {
   }
 
   .navbar-links ul {
-    margin: 50px;
-    padding: 50px;
+    margin: 15px;
+    padding: 15px;
     display: flex;
   }
 
