@@ -242,10 +242,10 @@ h6 {
 
 #form-section {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   flex-direction: row;
-  align-items: start;
-  text-align: center;
-  padding: 35px;
+  align-items: center;
   margin-top: 0;
   margin-bottom: auto;
 }
@@ -257,6 +257,10 @@ h6 {
   min-height: 90vh;
   background-size: cover;
   overflow-x: hidden;
+}
+
+#signup-form {
+  margin-top: 10vh;
 }
 
 [type="checkbox"]:checked,
@@ -722,6 +726,17 @@ footer {
 
 /* Media query - tablets and larger devices (900px and up) */
 @media only screen and (min-width: 900px) {
+
+  #form-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: auto;
+  }
+
   .container img {
     width: 25%;
     height: 25%;
