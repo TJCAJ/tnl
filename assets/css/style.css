@@ -242,10 +242,10 @@ h6 {
 
 #form-section {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  align-items: start;
+  text-align: center;
+  padding: 35px;
   margin-top: 0;
   margin-bottom: auto;
 }
@@ -546,10 +546,8 @@ p {
 }
 
 .bkg-section-member {
-  width: 100%;
-  height: 100%;
   background-image: url("../images/markers-on-table-small.webp");
-  min-height: 90vh;
+  min-height: 50vh;
   background-size: cover;
   overflow-x: hidden;
 }
@@ -636,6 +634,25 @@ footer {
   .navbar-links.active {
     display: flex;
   }
+
+  #form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5vh;
+    margin-top: 0;
+    margin-bottom: auto;
+  }
+
+  #member {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1.5vh;
+    margin-top: 0;
+    margin-bottom: auto;
+  }
 }
 
 /* Media query - tablets and larger devices (600px and up) */
@@ -690,6 +707,16 @@ footer {
     margin-right: auto;
 
     width: 100%;
+  }
+
+  #form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 35px;
+    margin-top: 0;
+    margin-bottom: auto;
   }
 }
 
