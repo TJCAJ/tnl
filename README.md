@@ -77,9 +77,9 @@ As the website deals with gambling I decided to add this information about the g
 ### Features Left to Implement
 
 - As future enhancements, the Log in/Sign Up form can generate an an immediate and automatic response to the user with a clear message of their status - a.k.a. if the user gets a seat at the upcoming event or not. In this way the user can always log in to check their status.
-- The Gallery can certainly be improved with a rolling gallery where images shift frequently and also allow for users to upload their own pictures related to KPC United poker games.
+- The Gallery can certainly be improved with a rolling gallery where images shift frequently or at least having the images enhanced when clicked on, and also allow for users to upload their own pictures related to KPC United poker games.
 - The website can be structured in a more informative and user friendly way with more content/pages that describes the most popular poker games in more details, with tips and tricks to improve your game as a poker player.
-- More links can also be added to various online poker card rooms with descriptions of what services the provide
+- More links can also be added to various online poker card rooms with descriptions of what services the provide.
 
 ## Design
 
@@ -126,14 +126,28 @@ The live link can be found [here](https://tjcaj.github.io/nutslow/)
 Inspiration for the readme file was taken from The Love Running Project as well as my mentor Gareth McGirr and my fellow students Martiless (flawlesscooking), Airdrie86 (life-hack) and Kera Cudmore.
 
 ## Acknowledgements
-Thanks to my mentor for helpful feedback and creative input as well as mental support and encouragement by my student Cohort facilitator on Slack, Kristyna Ci. I also relyed on The Love Running Project for basic structure of the website and the Meet Up Section. In addition I had a code implemented for the signup page from Ivan Grozdic at [codeopen.io](https://codepen.io/ig_design/pen/KKVQpVP)
+Thanks to my mentor for helpful feedback and creative input as well as mental support and encouragement by my student Cohort facilitator on Slack, Kristyna Ci. I also relyed on The Love Running Project for basic structure of the website and the Meet Up Section. In addition I had a code implemented for the signup page from Ivan Grozdic at [codeopen.io](https://codepen.io/ig_design/pen/KKVQpVP) that I have changed a bit to better fit with my own webpage colours, fonts and logo.
+
 
 ## Technologies used
 
 For the purpose of this project, the following technologies were used.
 ### Languages:
-HTML
-CSS
+- HTML
+- CSS
+
+- In addition the _Signup Form_ is a bulit upon licensed sofwtware as stated here:
+
+Copyright (c) 2024 by [Ivan Grozdic]('https://codepen.io/ig_design/pen/KKVQpVP')
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+- _The responsive navbar_ code and technology is fully based upon information from the Youtube channel [Web Dev Simplified]('https://www.youtube.com/@WebDevSimpl')
+
 
 ### Frameworks, Libraries, Programs & Applications Used:
 ### Google Font
