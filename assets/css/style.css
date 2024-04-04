@@ -112,6 +112,22 @@ p {
   align-items: start;
 }
 
+.video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
 p {
   font-family: "BC one", sans-serif;
   letter-spacing: 1px;
@@ -820,6 +836,110 @@ footer {
 
 /* Media query - tablets and larger devices (900px and up) */
 @media only screen and (min-width: 900px) {
+
+  /* Home Section Nutclub */
+  #nutclub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: auto;
+  }
+
+  .bkg-section-nutclub {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/queen-knight-webp.webp");
+    min-height: 50vh;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+
+  .box {
+    text-align: start;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    margin-top: 5vh;
+    height: auto;
+    width: auto;
+    background-color: hwb(0 7% 11% / 0.537);
+    overflow-wrap: break-word;
+    box-shadow: 0 2px 2px hwb(0 7% 93%);
+    align-items: start;
+  }
+
+  .box-green {
+    text-align: start;
+    overflow-wrap: break-word;
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+    background-color: #1a5508;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    border-radius: 6px;
+    padding: 13px 20px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 8px 0 rgba(21, 21, 21, .2);
+    align-items: start;
+  }
+
+  .box-green-video {
+    text-align: center;
+    overflow-wrap: break-word;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    border-radius: 6px;
+    padding: 20px 20px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 8px 0 rgba(21, 21, 21, .2);
+    align-items: start;
+  }
+
+  .video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Home Section Nutclub */
+  #nutclub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: auto;
+  }
+
 
   #form-section {
     display: flex;
