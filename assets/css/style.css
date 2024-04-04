@@ -74,7 +74,6 @@ p {
   max-width: 100%;
   height: auto;
   perspective: 800px;
-  margin-top: 60px;
   background-color: #1a5508;
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
   background-position: bottom center;
@@ -82,8 +81,8 @@ p {
   background-size: 300%;
   border-radius: 6px;
   padding: 13px 20px;
-  margin-top: 101px;
-  margin-bottom: 100px;
+  margin-top: auto;
+  margin-bottom: 3vh;
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.5px;
@@ -105,6 +104,7 @@ p {
   background-size: 300%;
   border-radius: 6px;
   padding: 20px 20px;
+  margin-bottom: 3vh;
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.5px;
@@ -211,7 +211,6 @@ p {
   height: 50vh;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1vh;
 }
 
 /* responsive sizing of image on different screen sizes to keep aspect ratio */
@@ -233,12 +232,14 @@ h6 {
 /* Home Section Who we are */
 #who-we-are-section {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
-  margin-top: 0;
+  margin-top: 5px;
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 3vh;
   margin-bottom: auto;
 }
 
@@ -246,7 +247,7 @@ h6 {
   width: 100%;
   height: 100%;
   background-image: url("../images/straight-flush.webp");
-  min-height: 90vh;
+  min-height: 50vh;
   background-size: cover;
   overflow-x: hidden;
 }
@@ -261,6 +262,7 @@ h6 {
   margin-top: auto;
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 3vh;
   margin-bottom: auto;
 }
 
@@ -306,12 +308,13 @@ h6 {
 }
 
 form {
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 
 #form-section {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-evenly;
   text-align: center;
   padding: 35px;
@@ -756,7 +759,7 @@ footer {
     height: 700px;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1vh;
+
   }
 
   .navbar-links ul {
@@ -790,6 +793,20 @@ footer {
   .container img {
     width: 100%;
     align-items: center;
+  }
+
+  #who-we-are-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3vh;
+    margin-bottom: auto;
   }
 
   #form-section {
@@ -840,9 +857,9 @@ footer {
   /* Home Section Nutclub */
   #nutclub {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
     text-align: center;
     margin-top: auto;
     padding-left: 10px;
@@ -859,33 +876,21 @@ footer {
     overflow-x: hidden;
   }
 
-  .box {
-    text-align: start;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 25px;
-    margin-top: 5vh;
-    height: auto;
-    width: auto;
-    background-color: hwb(0 7% 11% / 0.537);
-    overflow-wrap: break-word;
-    box-shadow: 0 2px 2px hwb(0 7% 93%);
-    align-items: start;
-  }
-
   .box-green {
     text-align: start;
     overflow-wrap: break-word;
-    width: 700px;
+    width: 370px;
+    min-width: 340px;
     max-width: 100%;
     height: auto;
+    perspective: 800px;
+    margin-top: 101px;
     background-color: #1a5508;
     background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-size: 200%;
+    background-size: 300%;
     border-radius: 6px;
-    padding: 13px 20px;
     font-size: 14px;
     line-height: 22px;
     letter-spacing: 0.5px;
@@ -895,14 +900,14 @@ footer {
 
   .box-green-video {
     text-align: center;
-    overflow-wrap: break-word;
-    width: auto;
+    width: 700px;
     max-width: 100%;
     height: auto;
+    background-color: #1a5508;
     background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-size: 200%;
+    background-size: 300%;
     border-radius: 6px;
     padding: 20px 20px;
     font-size: 14px;
@@ -926,20 +931,6 @@ footer {
     width: 100%;
     height: 100%;
   }
-
-  /* Home Section Nutclub */
-  #nutclub {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-top: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: auto;
-  }
-
 
   #form-section {
     display: flex;
