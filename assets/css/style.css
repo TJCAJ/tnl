@@ -307,6 +307,29 @@ h6 {
   overflow-x: hidden;
 }
 
+.box-green-united {
+  text-align: start;
+  overflow-wrap: break-word;
+  width: 440px;
+  max-width: 100%;
+  height: auto;
+  perspective: 800px;
+  background-color: #1a5508;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 300%;
+  border-radius: 6px;
+  padding: 13px 20px;
+  margin-top: auto;
+  margin-bottom: 3vh;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 8px 0 rgba(21, 21, 21, .2);
+  align-items: start;
+}
+
 form {
   margin-bottom: 0px;
 }
@@ -877,6 +900,27 @@ footer {
   }
 
   .box-green {
+    text-align: start;
+    overflow-wrap: break-word;
+    width: 370px;
+    min-width: 340px;
+    max-width: 100%;
+    height: auto;
+    perspective: 800px;
+    background-color: #1a5508;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 300%;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 8px 0 rgba(21, 21, 21, .2);
+    align-items: start;
+  }
+
+  .box-green-united {
     text-align: start;
     overflow-wrap: break-word;
     width: 370px;
