@@ -90,6 +90,10 @@ p {
   align-items: start;
 }
 
+.box-green a {
+  color: #fafafa;
+}
+
 .box-green-who {
   text-align: start;
   overflow-wrap: break-word;
