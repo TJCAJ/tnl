@@ -706,11 +706,6 @@ p {
 }
 
 /* footer */
-footer {
-  height: 50px;
-  width: 100%;
-  background-color: #e21111;
-}
 
 #social-networks {
   display: flex;
@@ -718,9 +713,9 @@ footer {
   font-size: 200%;
   justify-content: space-around;
   color: #fafafa;
+  background-color: #e21111;
   list-style-type: none;
-  margin-top: 3px;
-  padding-top: 5px;
+  margin-top: 5px;
 }
 
 /** 
