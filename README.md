@@ -83,7 +83,8 @@ As the website deals with gambling I decided to add this information about the g
 
 ## Design
 
-![Home]
+
+
 
 ## Testing 
 
