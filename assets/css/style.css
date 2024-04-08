@@ -785,6 +785,8 @@ section **/
     align-items: center;
     text-align: center;
     padding: 1.5vh;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-top: 0;
     margin-bottom: auto;
   }
@@ -794,6 +796,8 @@ section **/
     align-items: center;
     text-align: center;
     padding: 1.5vh;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-top: 0;
     margin-bottom: auto;
   }
