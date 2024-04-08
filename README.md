@@ -2,7 +2,7 @@
 
 The Nut Low is a website customised for a small and very specific target group. This is for members in a local poker club in Stockholm, Sweden. Created to make it easier for members to meet, socialise and playing poker together. It will be a handy tool for members and useful to schedule tournaments more frequently. The website also aims to explain the basics of some of the most common poker games. [View the live site here](https://tjcaj.github.io/nutslow/index.html)
 
-![Responsice Mockup]
+![Responsice Mockup](docs/readme_images/mockup.png)
 
 This my first Milestone project for Code Institute's Full Stack Software Development Diploma. It was built using HTML and CSS. GitPod was used for writing the code for this website, as well as committing and pushing to GitHub. GitHub was then used to store the project after it had been pushed from GitPod. I choosed to deploy the website via GitHub quite early in the development process, as I figured it made sense to test my modest coding skills and try to minimalize errors before submission.
 
@@ -15,42 +15,60 @@ The looks and the feel of the website is created with red, white green and black
 
 - __Navigation Bar__
 
-  - Visible on all the website pages. Consists of links to Home, Gallery and a Log in/Sign up page that will be responsive on all devices. This will allow users navigate the website's pages on any device in a seamless flow without having to revert back to the previous page via the ‘back’ button.
+  - Visible on all the website pages. Consists of a logo, links to Home, Gallery and a Log in/Sign up page that will be responsive on all devices. This will allow users navigate the website's pages on any device in a seamless flow without having to revert back to the previous page via the ‘back’ button.
 
-  - This was also the thing I spent way to much time trying to figure out why the code didn’t respond as I intended with a similar solution to the Love Running project. Having the menu items visible on larger screens and just a menu bar on phones and similar devices with smaller screens. At the end I decided to go with another solution and decsided to have the menu drectly in a column to the lef on smaller devices and as a column on devices with a size over 600px wide. I alos put the logo to the right in the navbar.
+  - This was also the thing I spent way to much time trying to figure out why the code didn’t respond as I intended with a similar solution to the Love Running project. Having the menu items visible on larger screens and just a menu bar on phones and similar devices with smaller screens. My initial intention to have a checkbox with a similar solution to The Love Running project diddn't work out for me, so in the end I decided to go with javascript solution that I googled and found on Youtube. This is a solid solution credited under Acknoledgements, that I redisigned a bit to work for this website. I also decided to have the menu to the right on devices with a size over 600px wide and centered on smaller devices as you click on the navbar bars. The logo is my own design created with an ai tool from [Design.com](https://www.design.com/) positioned to the left in the navbar.
  
 
-![Nav Bar Mockup]
+![Nav_Bar_mockup](docs/readme_images/navbar_mockup.png)
+
+Mobile/smaller devices version
+
+![Nav_Bar_mobile_mockup](docs/readme_images/navbar_mobile_mockup.png)
+
 
 - __The landing page image__
 
   - The landing page image is an ai generated picture that I’ve generated through [fotor.com](fotor.com) It consists of a classic poker table with a player visible in a dark and smoky room. This introduces the user to the website with a strong visual animation in order to to grab their attention. In a simple way it also reveals the main topic for the website.
 
 
-![Landing Page]
+![Landing_Page](docs/readme_images/landing_page.jpg)
 
 ## Website information
 
 The main body of the homepage welcomes the user and intend to describe what and who it is created for via clear and consist information about KPC United’s poker club in Stockholm, Sweden. 
 
--__Who we are__
+- __Who we are__
 Here I added a separate description about the club, its members and a brief historic background as an introduction and helpful guide to new users and whoever is interested in joining the club.
 
+![Who_we_are](docs/readme_images/who_we_are.png)
 
-- __The Nut Club__
+- __Be inspired__
+As part of an making the website more interesting and always relevant, I also added a link to the World Poker Tour live stream (WPT Live!) on Youtube in the first section on the page.
+
+![Be_inspired](docs/readme_images/be_inspired.jpg)
+
+
+- __The Nut Low Club__
 
  Is a vital part of the website with information about membership fees and membership perks for the user.
 
-- __Membership Guidlines__
-As the website deals with gambling I decided to add this information about the guidlines for members of KPC United. This was made with feedback from friends and family about this project.
+ ![Be_inspired](docs/readme_images/the_nut_low_club.png)
+
+ - __Gameplay__
+
+ Is a short and informative part of the website with basic information about the rules playing Texas HoldEm poker where I added a link to Wikihow withe a more elaborated description about how to play and what to consider as a poker player.
+
+ ![Gameplay](docs/readme_images/gameplay.png)
 
 - __Meetup Times section__
 
   - This section will allow the user to see dates for upcoming poker tournaments and who hosts the event.
-  - My intention is that this section will be updated with status of seats taken and when it's fully booked, as the members sign up for each event via the Log in/Sign up form.
+  - My intention is that this section will be automatically updated with status of seats taken and when it's fully booked, as the members sign up for each event via the Log in/Sign up form. As for now this update is done manually by the administrator.
   - In this way this section helps to keep the user up to date.
 
-![Meetup Times]
+  ![Meetup_section](docs/readme_images/meetup_times_section.jpg)
+
 - __The Footer__ 
 
   - The footer is visible on all pages. This section contain icons as links to social media sites for members to share their love for poker. The links opens to a new tab to allow easy navigation and accessible to the visually impaired who may be using a screen reader, by the use of aria labels.
@@ -58,7 +76,7 @@ As the website deals with gambling I decided to add this information about the g
   - The footer is valuable to the user as it encourages them to stay connected and up to date via social media.
 
 
-![Footer]
+![Footer](docs/readme_images/footer.png)
 
 - __Gallery__
 
@@ -70,9 +88,14 @@ As the website deals with gambling I decided to add this information about the g
 
 - __The Log in/Sign up Page__
 
-  - This page will help the user to log in on their account and submit to upcoming poker tournaments under the auspices of KPC. The user will be able specify the date they would like take a seat with a maximum of 16 players at every event. The user will be notified of their status via email from the KPC administrator.
+  - This page will help the user to log in on their account and submit to upcoming poker tournaments under the auspices of KPC. The user will be able specify the date they would like take a seat with a maximum of 16 players at every event. The user will be notified of their status via email from the KPC administrator. Setting up this was also kind of an hurdle to me, because I wanted to integrate a slick version of this function that I found via google (also credited under Acknowledgements). The reason was yhat I find it cool to have both a signup and a login function to the website so it's as easy for members to slog in to their personal pages, as for aspiring memnbers to sign up for a new account. I used the basic code for this form under the license of [Ivan Grozdic]('https://codepen.io/ig_design/pen/KKVQpVP') bit modified it so the design reflects my own choice of colours and margins etc.
 
-![Sign Up]
+  ![The_login_sign_up](docs/readme_images/login_signup.png)
+
+  - __Membership Guidelines__
+As the website deals with gambling I decided to add this information about the guidlines for members of KPC United. This was made with feedback from friends and family about this project.
+
+![Membership](docs/readme_images/membership_guidelines.png)
 
 ### Features Left to Implement
 
@@ -83,7 +106,23 @@ As the website deals with gambling I decided to add this information about the g
 
 ## Design
 
+- Home
 
+![Home](docs/readme_images/home.png)
+
+![Home_mobile](docs/readme_images/home_mobile_version.png)
+
+- Gallery
+
+![Gallery](docs/readme_images/gallery.png)
+
+![Gallery_mobile](docs/readme_images/gallery_mobile_version.png)
+
+- Sign Up
+
+![Signup](docs/readme_images/signup.png)
+
+![Signup_mobile](docs/readme_images/signup_mobile_version.png)
 
 
 ## Testing 
