@@ -45,6 +45,10 @@ p {
   margin: 0;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 #website-center {
   display: flex;
   align-items: center;
@@ -81,7 +85,6 @@ p {
   background-size: 300%;
   border-radius: 6px;
   padding: 13px 20px;
-  margin-top: auto;
   margin-bottom: 3vh;
   font-size: 14px;
   line-height: 22px;
@@ -90,18 +93,19 @@ p {
   align-items: start;
 }
 
-.box-green a {
+.box-green a,
+details {
   color: #fafafa;
 }
 
-.box-green-who {
+.box-red-who {
   text-align: start;
   overflow-wrap: break-word;
   width: 440px;
   max-width: 100%;
   height: 543.25px;
   perspective: 1200px;
-  background-color: #1a5508;
+  background-color: #e21111;
   background-image: url("../images/eyes-159599_1280.webp");
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -113,7 +117,6 @@ p {
   line-height: 22px;
   letter-spacing: 0.5px;
   box-shadow: 0 4px 8px 0 rgba(21, 21, 21, .2);
-
 }
 
 .box-green-video {
@@ -153,7 +156,8 @@ p {
   height: 100%;
 }
 
-p {
+p,
+li {
   font-family: "BC one", sans-serif;
   letter-spacing: 1px;
   font-weight: 100;
@@ -192,7 +196,9 @@ p {
 
 .navbar-links li {
   list-style-type: none;
-  font-size: 1.5rem;
+  font-family: "Paytone One", sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
 }
 
 .navbar-links li a {
@@ -334,7 +340,6 @@ h6 {
 }
 
 .box-green-united {
-  text-align: start;
   overflow-wrap: break-word;
   width: 440px;
   max-width: 100%;
@@ -354,6 +359,11 @@ h6 {
   letter-spacing: 0.5px;
   box-shadow: 0 4px 8px 0 rgba(21, 21, 21, .2);
   align-items: start;
+}
+
+.box-green-united h2,
+p {
+  text-align: center;
 }
 
 #form-section {
@@ -651,9 +661,10 @@ p {
 
 /* Membership Guidlines Section */
 
-#member {
+#member-section {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
   align-items: center;
   text-align: center;
   padding: 35px;
@@ -662,7 +673,10 @@ p {
 }
 
 .bkg-section-member {
-  background-image: url("../images/pexels-volker-thimm-15793559.jpeg");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-image: url("../images/spades-small.webp");
   min-height: 50vh;
   background-size: cover;
   overflow-x: hidden;
@@ -673,20 +687,19 @@ p {
   overflow-wrap: break-word;
   width: 500px;
   max-width: 100%;
-  height: 730px;
+  height: auto;
   perspective: 1200px;
   background-color: #1a5508;
-  background-image: url("../images/membercard.webp");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 80%;
   border-radius: 6px;
-  padding: 13px 20px;
+  padding: 13px 50px;
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.5px;
   box-shadow: 0 4px 8px 0 rgba(21, 21, 21, .2);
-  align-items: start;
+  justify-content: center;
 }
 
 /* footer */
@@ -776,7 +789,7 @@ section **/
     margin-bottom: auto;
   }
 
-  #member {
+  #member-section {
     display: flex;
     align-items: center;
     text-align: center;
@@ -861,6 +874,25 @@ section **/
     margin-top: 0;
     margin-bottom: auto;
   }
+
+  .box-green-member {
+    text-align: start;
+    overflow-wrap: break-word;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    perspective: 1200px;
+    background-color: #1a5508;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    border-radius: 6px;
+    padding: 13px 50px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 8px 0 rgba(21, 21, 21, .2);
+    align-items: start;
+  }
 }
 
 /* Media query - tablets and larger devices (768px and up) */
@@ -917,6 +949,27 @@ section **/
     min-height: 50vh;
     background-size: cover;
     overflow-x: hidden;
+  }
+
+  .box-red-who {
+    text-align: start;
+    overflow-wrap: break-word;
+    width: 700px;
+    max-width: 100%;
+    height: 543.25px;
+    perspective: 1200px;
+    background-color: #e21111;
+    background-image: url("../images/eyes-159599_1280.webp");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    border-radius: 6px;
+    padding: 13px 20px;
+    margin-bottom: 3vh;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 8px 0 rgba(21, 21, 21, .2);
   }
 
   .box-green {
@@ -1018,6 +1071,74 @@ section **/
     align-items: center;
   }
 
+}
+
+/* Media query - tablets and larger devices (1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  .box-red-who {
+    text-align: start;
+    overflow-wrap: break-word;
+    width: 440px;
+    max-width: 100%;
+    height: 543.25px;
+    perspective: 1200px;
+    background-color: #e21111;
+    background-image: url("../images/eyes-159599_1280.webp");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    border-radius: 6px;
+    padding: 13px 20px;
+    margin-bottom: 3vh;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 8px 0 rgba(21, 21, 21, .2);
+  }
+
+  .box-green {
+    text-align: start;
+    overflow-wrap: break-word;
+    width: 700px;
+    min-width: 340px;
+    max-width: 100%;
+    height: auto;
+    perspective: 800px;
+    background-color: #1a5508;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 300%;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 8px 0 rgba(21, 21, 21, .2);
+    align-items: start;
+  }
+
+  .box-green-united {
+    text-align: start;
+    overflow-wrap: break-word;
+    width: 1000px;
+    min-width: 340px;
+    max-width: 100%;
+    height: auto;
+    perspective: 800px;
+    margin-top: 101px;
+    background-color: #1a5508;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 300%;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 8px 0 rgba(21, 21, 21, .2);
+    align-items: start;
+  }
 }
 
 /* Media query - tablets and larger devices (min-height 1300px and up) */
