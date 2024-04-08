@@ -168,6 +168,7 @@ li {
 
 .logo-tnl {
   display: flex;
+  size-adjust: auto;
   left: 0px;
   z-index: 100;
   transition: all 250ms linear;
