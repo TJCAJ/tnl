@@ -162,6 +162,8 @@ details {
 }
 
 /* Navbar styles with dropdown bar */
+/** In order to make the navbar responsive with a bar icon on smaller devices an instructive video on Youtube
+was used for thos from Web Dev Simplified (https: //www.youtube.com/watch?v=At4B7A4GOPg) **/
 
 .navbar {
   display: flex;
@@ -279,6 +281,7 @@ details {
 }
 
 /* Home Meetup Times section */
+/** The basis for the code in this section is reused code from The Love Running project **/
 
 #meetup-times {
   background: url('../images/markers-on-table-small.webp') no-repeat center/cover;
@@ -302,6 +305,7 @@ details {
 }
 
 /* Signup Form section */
+/** The basis for the code in this section is a code snippet from Ivan Grozdic('https://codepen.io/ig_design/pen/KKVQpVP') **/
 
 .signup-bkg-section-images {
   width: 100%;
@@ -680,6 +684,8 @@ p {
 }
 
 /* Gallery */
+/** The basis for the code in this section is an instructive video about flexbox
+at the Dee Mc Coding Youtube channel (https: //www.youtube.com/watch? **/
 
 .container {
   line-height: 0;
