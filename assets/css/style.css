@@ -53,27 +53,28 @@ p {
   text-transform: uppercase;
 }
 
-#website-center {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin-top: 20vh;
-  margin-bottom: auto;
+p,
+li {
+  font-family: "BC one", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 100;
+  color: #fafafa;
+  margin: 5px;
+  padding: 10px;
 }
 
-.box {
-  text-align: start;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 25px;
-  margin-top: 5vh;
-  height: auto;
-  width: auto;
-  background-color: hwb(0 7% 11% / 0.537);
-  overflow-wrap: break-word;
-  box-shadow: 0 2px 2px hwb(0 7% 93%);
-  align-items: start;
+.logo-tnl {
+  display: flex;
+  left: 0px;
+  z-index: 100;
+  transition: all 250ms linear;
 }
+
+.active {
+  border-bottom: 1px solid #000000;
+}
+
+/* Home Who we are section */
 
 .box-green {
   text-align: start;
@@ -160,27 +161,6 @@ details {
   height: 100%;
 }
 
-p,
-li {
-  font-family: "BC one", sans-serif;
-  letter-spacing: 1px;
-  font-weight: 100;
-  color: #fafafa;
-  margin: 5px;
-  padding: 10px;
-}
-
-.logo-tnl {
-  display: flex;
-  left: 0px;
-  z-index: 100;
-  transition: all 250ms linear;
-}
-
-.active {
-  border-bottom: 1px solid #000000;
-}
-
 /* Navbar styles with dropdown bar */
 
 .navbar {
@@ -248,22 +228,6 @@ li {
   height: 50vh;
   align-items: center;
   justify-content: center;
-}
-
-/* responsive sizing of image on different screen sizes to keep aspect ratio */
-
-#website-intro {
-  height: 500px;
-  margin-top: 50px;
-}
-
-#website-intro>h2,
-h6 {
-  text-align: center;
-}
-
-#website-intro>p {
-  text-align: center;
 }
 
 /* Home Who we are section */
@@ -715,19 +679,6 @@ p {
   justify-content: center;
 }
 
-/* footer */
-
-#social-networks {
-  display: flex;
-  flex-direction: row;
-  font-size: 200%;
-  justify-content: space-around;
-  color: #fafafa;
-  background-color: #e21111;
-  list-style-type: none;
-  margin-top: 5px;
-}
-
 /* Gallery */
 
 .container {
@@ -746,6 +697,19 @@ p {
 .gallery-bkg-section-images {
   margin-top: 5px;
   background-image: url("../images/ace-close-up.webp");
+}
+
+/* footer */
+
+#social-networks {
+  display: flex;
+  flex-direction: row;
+  font-size: 200%;
+  justify-content: space-around;
+  color: #fafafa;
+  background-color: #e21111;
+  list-style-type: none;
+  margin-top: 5px;
 }
 
 /* Media query - tablets and larger devices (max 600px) */
