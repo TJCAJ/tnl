@@ -1,7 +1,9 @@
 /* Google fonts import */
+
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Paytone+One&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,7 @@
 }
 
 /* General styles */
+
 body {
   display: flex;
   flex-direction: column;
@@ -168,7 +171,6 @@ li {
 
 .logo-tnl {
   display: flex;
-  size-adjust: auto;
   left: 0px;
   z-index: 100;
   transition: all 250ms linear;
@@ -179,6 +181,7 @@ li {
 }
 
 /* Navbar styles with dropdown bar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -232,6 +235,7 @@ li {
 }
 
 /* hero image with responsive sizing of image on different screen sizes to keep aspect ratio */
+
 .hero {
   display: flex;
   background-position: center;
@@ -261,7 +265,8 @@ h6 {
   text-align: center;
 }
 
-/* Home Section Who we are */
+/* Home Who we are section */
+
 #who-we-are-section {
   display: flex;
   flex-direction: column;
@@ -284,7 +289,8 @@ h6 {
   overflow-x: hidden;
 }
 
-/* Home Section Nutclub */
+/* Home Nutclub section */
+
 #nutclub {
   display: flex;
   flex-direction: column;
@@ -307,7 +313,8 @@ h6 {
   overflow-x: hidden;
 }
 
-/* Meetup Times Section */
+/* Home Meetup Times section */
+
 #meetup-times {
   background: url('../images/markers-on-table-small.webp') no-repeat center/cover;
   display: flex;
@@ -329,7 +336,8 @@ h6 {
   border: 3px solid #1a5508;
 }
 
-/* Signup Form Section */
+/* Signup Form section */
+
 .signup-bkg-section-images {
   width: 100%;
   height: 100%;
@@ -663,7 +671,7 @@ p {
   font-weight: 700;
 }
 
-/* Membership Guidlines Section */
+/* Signup Membership Guidelines section */
 
 #member-section {
   display: flex;
@@ -719,8 +727,7 @@ p {
   margin-top: 5px;
 }
 
-/** 
-section **/
+/* Gallery */
 
 .container {
   line-height: 0;
@@ -742,6 +749,9 @@ section **/
 
 /* Media query - tablets and larger devices (max 600px) */
 @media (max-width:600px) {
+
+  /* Navbar */
+
   .toggle-button {
     display: flex;
   }
@@ -778,6 +788,8 @@ section **/
     display: flex;
   }
 
+  /* Signup Form section */
+
   #form-section {
     display: flex;
     flex-direction: column;
@@ -806,6 +818,7 @@ section **/
 @media only screen and (min-width: 600px) {
 
   /* hero image */
+
   .hero {
     background-position: center;
     background-repeat: no-repeat;
@@ -818,8 +831,9 @@ section **/
     align-items: center;
     justify-content: center;
     margin-bottom: 5px;
-
   }
+
+  /* Navbar */
 
   .navbar-links ul {
     margin: 15px;
@@ -842,6 +856,8 @@ section **/
     background-color: #e21111;
   }
 
+  /* Gallery */
+
   .container {
     line-height: 2;
     column-count: 2;
@@ -853,6 +869,8 @@ section **/
     width: 100%;
     align-items: center;
   }
+
+  /* Home Who we are section */
 
   #who-we-are-section {
     display: flex;
@@ -867,6 +885,8 @@ section **/
     padding-top: 3vh;
     margin-bottom: auto;
   }
+
+  /* Signup Form section */
 
   #form-section {
     display: flex;
@@ -901,6 +921,8 @@ section **/
 /* Media query - tablets and larger devices (768px and up) */
 @media screen and (min-width: 768px) {
 
+  /* Navbar */
+
   #menu li {
     flex-direction: row;
     font-size: 110%;
@@ -932,7 +954,8 @@ section **/
 /* Media query - tablets and larger devices (900px and up) */
 @media only screen and (min-width: 900px) {
 
-  /* Home Section Nutclub */
+  /* Home Nutclub section*/
+
   #nutclub {
     display: flex;
     flex-wrap: wrap;
@@ -953,6 +976,8 @@ section **/
     background-size: cover;
     overflow-x: hidden;
   }
+
+  /* Home Who we are section */
 
   .box-red-who {
     text-align: start;
@@ -1052,6 +1077,8 @@ section **/
     height: 100%;
   }
 
+  /* Signup Form section */
+
   form {
     padding-top: 0;
   }
@@ -1065,6 +1092,8 @@ section **/
     margin-top: 0;
     margin-bottom: auto;
   }
+
+  /* Gallery */
 
   .container {
     line-height: 2;
@@ -1082,6 +1111,8 @@ section **/
 
 /* Media query - tablets and larger devices (1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+  /* Home Who we are section */
 
   .box-red-who {
     text-align: start;
@@ -1146,7 +1177,7 @@ section **/
     align-items: start;
   }
 
-
+  /* Signup Form section */
 
   form {
     padding-top: 3vh;
@@ -1156,13 +1187,19 @@ section **/
 
 /* Media query - tablets and larger devices (min-height 1300px and up) */
 @media only screen and (min-height: 1300px) {
+
+  /* General  */
   .content {
     min-height: calc(100vh - 70px);
   }
 
+  /* Fooer */
+
   .footer {
     flex-shrink: 0;
   }
+
+  /* Gallery */
 
   .container img {
     width: 25%;
