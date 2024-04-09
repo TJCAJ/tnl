@@ -14,7 +14,15 @@ Header and footer as above.
 
 ## Responsive characteristics
 
-All pages were checked using Google Dev tools to make sure they were compatible on desktops, tablets and mobiles. It was also tested using a MacBook Pro with external LG 5K screen, an iPad as well as in iPhone to make sure the website worked correctly.
+All pages were checked using Google Dev tools to make sure they were compatible on desktops, tablets and mobiles, to ensure responsiveness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design. It was also tested using a MacBook Pro with external LG 5K screen, an iPad as well as in iPhone to make sure the website worked correctly.
+
+Steps to test:
+
+Open browser and navigate to The Nut Low
+Open the developer tools (right click and inspect)
+Set to responsive and decrease width to 320px
+Set the zoom to 50%
+Click and drag the responsive window to maximum width
 
 ## Browsers
 
@@ -24,6 +32,6 @@ During the development of the website was it was viewed by a number of members i
 ### The outcome of these test were:
 
 - The menu bar didn’t work as it should when changing screen size on various devices with larger screen size.
-- Page text and images were not aligned correctly.
+- Page text and images were not aligned correctly. These issuses were then adjusted.
 
 - All feedback was valuable for the development process and changes were made to improve the user experience.

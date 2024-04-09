@@ -9,7 +9,6 @@
   padding: 0;
   border: none;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 /* General styles */
@@ -173,6 +172,7 @@ was used for thos from Web Dev Simplified (https: //www.youtube.com/watch?v=At4B
   color: #fafafa;
   list-style-type: none;
   height: 15vh;
+  overflow-x: hidden;
 }
 
 .navbar-links ul {
@@ -230,6 +230,7 @@ was used for thos from Web Dev Simplified (https: //www.youtube.com/watch?v=At4B
   height: 50vh;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 /* Home Who we are section */
@@ -305,7 +306,6 @@ was used for thos from Web Dev Simplified (https: //www.youtube.com/watch?v=At4B
 }
 
 /* Signup Form section */
-/** The basis for the code in this section is a code snippet from Ivan Grozdic('https://codepen.io/ig_design/pen/KKVQpVP') **/
 
 .signup-bkg-section-images {
   width: 100%;
@@ -374,6 +374,9 @@ form {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+/** The basis for the code in this part of the Form section is a code snippet
+from Ivan Grozdic('https://codepen.io/ig_design/pen/KKVQpVP') **/
 
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked) {
@@ -638,6 +641,13 @@ p {
   padding: 0 20px;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+#signupform>.form-section {
+  position: relative;
+  width: 100%;
+  display: block;
+  margin-left: 3%;
 }
 
 /* Signup Membership Guidelines section */
