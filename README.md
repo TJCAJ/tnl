@@ -206,7 +206,7 @@ Font Awesome was used on each page of the website to provide icons for UX purpos
 GitPod was used for access to the student workspace and writing parts of the code for this project. It was also used to commit and push to GitHub.
 
 ### Visual Studio Code
-IDE used for this project is Visual Studio Code. It was used writing parts of the code for this project as well and to commit and push to GitHub.
+The website was developed using Visual Studio Code IDE. It was used writing parts of the code for this project as well and to commit and push to GitHub.
 
 ### GitHub
 GitHub was used to store this project.
@@ -222,6 +222,12 @@ Am I Responsive was used to check that each page of the site was responsive. It 
 
 ### Google Development Tools
 Google Dev Tools was used to edit code and check responsiveness before making the changes permanent.
+
+### Adobe Photoshop
+Photoshop was used to reduce the size of the images throughout the website.
+
+### Font Awesome
+Icons obtained from Font Awesome were used as the Social media links in the footer section.
 
 
 ## Content 
