@@ -1,6 +1,6 @@
 # The Nut Low
 
-The Nut Low is a website customised for a small and very specific target group. This is for members in a local poker club in Stockholm, Sweden. Created to make it easier for members to meet, socialise and playing poker together. It will be a handy tool for members and useful to schedule tournaments more frequently. The website also aims to explain the basics of some of the most common poker games. [View the live site here](https://tjcaj.github.io/nutslow/index.html)
+The Nut Low is a website customised for a small and very specific target group. This is for members in a local poker club in Stockholm, Sweden. Created to make it easier for members to meet, socialise and playing poker together. It will be a handy tool for members and useful to schedule tournaments more frequently. The website also aims to explain the basics of some of the most common poker games. [View the live site here](https://tjcaj.github.io/tnl/index.html)
 
 ![Responsice Mockup](docs/readme_images/mockup.png)
 
@@ -15,10 +15,7 @@ The looks and the feel of the website is created with red, white green and black
 
 - __Navigation Bar__
 
-  - Visible on all the website pages. Consists of a logo, links to Home, Gallery and a Log in/Sign up page that will be responsive on all devices. This will allow users navigate the website's pages on any device in a seamless flow without having to revert back to the previous page via the ‘back’ button.
-
-  - This was also the thing I spent way to much time trying to figure out why the code didn’t respond as I intended with a similar solution to the Love Running project. Having the menu items visible on larger screens and just a menu bar on phones and similar devices with smaller screens. My initial intention to have a checkbox with a similar solution to The Love Running project diddn't work out for me, so in the end I decided to go with javascript solution that I googled and found on Youtube. This is a solid solution credited under Acknoledgements, that I redisigned a bit to work for this website. I also decided to have the menu to the right on devices with a size over 600px wide and centered on smaller devices as you click on the navbar bars. The logo is my own design created with an ai tool from [Design.com](https://www.design.com/) positioned to the left in the navbar.
- 
+  - Visible on all the website pages. Consists of a logo, links to Home, Gallery and a Log in/Sign up page that will be responsive on all devices. This will allow users navigate the website's pages on any device in a seamless flow without having to revert back to the previous page via the ‘back’ button. I decided to have the menu to the right on devices with a size over 600px wide and centered on smaller devices as you click on the navbar bars. The logo is my own design created with an ai tool from [Design.com](https://www.design.com/) positioned to the left in the navbar.
 
 ![Nav_Bar_mockup](docs/readme_images/navbar_mockup.png)
 
@@ -75,20 +72,18 @@ As part of an making the website more interesting and always relevant, I also ad
 
   - The footer is valuable to the user as it encourages them to stay connected and up to date via social media.
 
-
 ![Footer](docs/readme_images/footer.png)
 
 - __Gallery__
 
   - The Gallery consist of pictures from pexels.com for now. It is added to the website in order to inspire how fun and exciting it is to play poker with KPC United.
   -  I’ve made sure that all the images was processed and compressed in file size via Adobe Photoshop to compressed .webp-files in order to enhance the user experience.
-  - In order to make the Gallery responisve I was adviced by my mentor to look at a [Youtube video](https://youtu.be/2uvyx4YK_rQ?feature=shared) about Flexbox. This helped me in my efforts to create a responsive gallery.
 
-![Gallery]
+![Gallery](docs/readme_images/gallery_images.png)
 
 - __The Log in/Sign up Page__
 
-  - This page will help the user to log in on their account and submit to upcoming poker tournaments under the auspices of KPC. The user will be able specify the date they would like take a seat with a maximum of 16 players at every event. The user will be notified of their status via email from the KPC administrator. Setting up this was also kind of an hurdle to me, because I wanted to integrate a slick version of this function that I found via google (also credited under Acknowledgements). The reason was yhat I find it cool to have both a signup and a login function to the website so it's as easy for members to slog in to their personal pages, as for aspiring memnbers to sign up for a new account. I used the basic code for this form under the license of [Ivan Grozdic]('https://codepen.io/ig_design/pen/KKVQpVP') bit modified it so the design reflects my own choice of colours and margins etc.
+  - This page will help the user to log in on their account and submit to upcoming poker tournaments under the auspices of KPC. The user will be able specify the date they would like take a seat with a maximum of 16 players at every event. The user will be notified of their status via email from the KPC administrator. I find it cool to have both a signup and a login function to the website so it's as easy for members to log in to their personal pages, and for aspiring memnbers to sign up for a new account.
 
   ![The_login_sign_up](docs/readme_images/login_signup.png)
 
@@ -102,6 +97,7 @@ As the website deals with gambling I decided to add this information about the g
 - As future enhancements, the Log in/Sign Up form can generate an an immediate and automatic response to the user with a clear message of their status - a.k.a. if the user gets a seat at the upcoming event or not. In this way the user can always log in to check their status.
 - The Gallery can certainly be improved with a rolling gallery where images shift frequently or at least having the images enhanced when clicked on, and also allow for users to upload their own pictures related to KPC United poker games.
 - The website can be structured in a more informative and user friendly way with more content/pages that describes the most popular poker games in more details, with tips and tricks to improve your game as a poker player.
+- A blog could be added as it allow people to share their thoughts and experiences about the website, the club and poker in general. This would better the way for users to interact with one another and help to improve the website as a whole.
 - More links can also be added to various online poker card rooms with descriptions of what services the provide.
 
 ## Design
@@ -136,47 +132,52 @@ Information about the tests will be viewed [here](Test.md)
 - CSS
   - No errors will not be found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-### Unfixed Bugs
+### Issues encountered
 
-Favicon are customised  with favicon.io and copied into the code according to their info but when the website is loaded it’s not showing.
+- The favicon were customised  with favicon.io and copied into the code according to their info, but at first when the website was loaded it wasn't showing. This was solved by relinking the images  from the right folder.
 
-The landing page image not responsive. As I talked with my mentor he helped me figure out that it was easier to add the hero image as a < img > tag in the HTML rather than as a url and styling in the CSS. This solved my issue.
+- The Navbar was something I spent way to much time trying to figure out why the code didn’t respond as I intended with a similar solution to the Love Running project. Having the menu items visible on larger screens and just a menu bar on phones and similar devices with smaller screens. My initial intention to have a checkbox with a similar solution to The Love Running project diddn't work out for me, so in the end I decided to go with javascript solution that I googled and found on Youtube. This is a solid solution credited under Acknoledgements, that I redisigned a bit to work for this website.
 
-The menu bar was a hard and lasting problem for me. I couldn’t understand why it didn’t work despite that the code looked good to me, accordingly to the method I’ve learned in the Love Running Project. The real mental breakthrough was unexpected. I simply made an error in the CSS styling as I started to add headings and paragraphs to the main section. I typed { ( which resulted in breaking up my code and (!) Showing the menu bar as intended on smaller devices with the correct function in place… However after several attempts to understand why this happened I also had the misfortune to miss out on my second mentor call due to a late train... I thought I knew it had something to do with the flex box properties that I couldnt get my head around ths time, whilst I decided to try a solution with javascript from a youtube video. This is a better solution but it is still not quite ready.
+- Setting up the Signup page was also kind of an hurdle to me, because I wanted to integrate a slick version of this function that I found via google (also credited under Acknowledgements). I used the basic code for this form under the license of [Ivan Grozdic]('https://codepen.io/ig_design/pen/KKVQpVP') but modified it so the design reflects my own choice of colours and margins etc.
 
-GitPod in Visual studios on my MacBook Pro didn’t work as easy as working directly in the browser for me. As a beginner with all these new platforms and development tools it is a constant battle trying to understand why and how all functions works in each dev tool. A simple thing here was that I couldn’t change the text in Visual studios. Nothing happened and it was hard to google any answers. For me it was easier to stick to the browser that worked as submission day closed in.
+ - In order to make the Gallery responisve I was adviced by my mentor to look at a [Youtube video](https://youtu.be/2uvyx4YK_rQ?feature=shared) about Flexbox. This helped me in my efforts to create a responsive gallery. This is credited in Acknowledgements.
+
+ - GitPod in Visual studios on my MacBook Pro didn’t work as easy as working directly in the browser for me. As a beginner with all these new platforms and development tools it is a constant battle trying to understand why and how all functions works in each dev tool. A simple thing here was that I couldn’t change the text in Visual studios. Nothing happened and it was hard to google any answers. For me it was easier to stick to the browser that worked as submission day closed in. Ath the end I got help via Slack by user Jörgen_5p_lead (Jörgen Jonsson) to find out that this was caused by a plugin that I had activated in VS Studio. As I removed this plugin the IDE started to work correctly.
 
 Git commit… I am a beginner and this was a real struggle for me in the beginning as I tested out code and functionality on various elements  in a rapid haste. Made several errors with this, but as it goes one can only get better with experience. Googled a lot and studied the Love Running project several times to improve on this.
 
+- The landing page image was not responsive at first. As I talked with my mentor he helped me figure out that it was easier to add the hero image as a < img > tag in the HTML rather than as a url and styling in the CSS. This solved my issue.
+
+- The menu bar was a hard and lasting problem for me. I couldn’t understand why it didn’t work despite that the code looked good to me, accordingly to the method I’ve learned in the Love Running Project. The real mental breakthrough was unexpected. I simply made an error in the CSS styling as I started to add headings and paragraphs to the main section. I typed { ( which resulted in breaking up my code and (!) Showing the menu bar as intended on smaller devices with the correct function in place… However after several attempts to understand why this happened I also had the misfortune to miss out on my second mentor call due to a late train... I thought I knew it had something to do with the flex box properties that I couldnt get my head around ths time, whilst I decided to try a solution with javascript from a youtube video. This is a better solution but it is still not quite ready.
+
+- The site was deployed to GitHub pages. But it was not without a minor issue. As I deployed my website it didn’t go through Github for a long time. Then I realised that it was due to the fact that I hadn’t pushed my last commits. This made the deployment to fail. The solution again was to google and find the answer. 
+
+### Unfixed Bugs
+
+
+
 ## Deployment
-
-The site was deployed to GitHub pages. But it was not without a minor issue. As I deployed my website it didn’t go through Github for a long time. Then I realised that it was due to the fact that I hadn’t pushed my last commits. This made the deployment to fail. The solution again was to google and find the answer. 
-
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found [here](https://tjcaj.github.io/nutslow/)
-
-
 ## Credits 
 
-Inspiration for the readme file was taken from The Love Running Project as well as my mentor Gareth McGirr and my fellow students Martiless (flawlesscooking), Airdrie86 (life-hack) and Kera Cudmore.
+Inspiration for the readme file was taken from _The Love Running Project_ as well as my mentor _Gareth McGirr_ and my fellow students _Martiless (flawlesscooking)_, _Airdrie86 (life-hack)_ and _Kera Cudmore_. I also want to put in an extra credit to _Ivan Grozdic_, _IonaFrisbee_ and _Web Dev Simplified_ offering solutions and explanations to issues encountered.
 
 ## Acknowledgements
-Thanks to my mentor for helpful feedback and creative input as well as mental support and encouragement by my student Cohort facilitator on Slack, Kristyna Ci. I also relyed on The Love Running Project for basic structure of the website and the Meet Up Section. In addition I had a code implemented for the signup page from Ivan Grozdic at [codeopen.io](https://codepen.io/ig_design/pen/KKVQpVP) that I have changed a bit to better fit with my own webpage colours, fonts and logo.
 
+- Thanks to my mentor _Gareth McGirr_ for helpful feedback and creative input as well as mental support and encouragement by my student Cohort facilitator on Slack, _Kristyna Ci_.
 
-## Technologies used
+- I also relyed on The Love Running Project for basic structure of the website and the Meet Up Section.
 
-For the purpose of this project, the following technologies were used.
-### Languages:
-- HTML
-- CSS
+- _The responsive navbar_ code and technology is fully based upon information from the Youtube channel [Web Dev Simplified](https://www.youtube.com/watch?v=At4B7A4GOPg)
 
-- In addition the _Signup Form_ is a bulit upon licensed sofwtware as stated here:
+- The desigm for _the gallery_ is based upon code that I learned via the [Dee Mc Coding channel](https://www.youtube.com/watch?v=2uvyx4YK_rQ) on Youtube. Run by user IonaFrisbee.
+
+- In addition I had a code implemented for _the signup page_ from Ivan Grozdic at [codeopen.io](https://codepen.io/ig_design/pen/KKVQpVP) that I have changed a bit to better fit with my own webpage colours, fonts and logo. - This is a built upon licensed sofwtware as stated here:
 
 Copyright (c) 2024 by [Ivan Grozdic]('https://codepen.io/ig_design/pen/KKVQpVP')
 
@@ -186,8 +187,13 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-- _The responsive navbar_ code and technology is fully based upon information from the Youtube channel [Web Dev Simplified]('https://www.youtube.com/@WebDevSimpl')
 
+## Technologies used
+
+For the purpose of this project, the following technologies were used.
+### Languages:
+- HTML
+- CSS
 
 ### Frameworks, Libraries, Programs & Applications Used:
 ### Google Font
@@ -198,6 +204,9 @@ Font Awesome was used on each page of the website to provide icons for UX purpos
 
 ### GitPod
 GitPod was used for writing all the code for this project. It was also used to commit and push to GitHub.
+
+### Visual Studio Code
+IDE used for this project is Visual Studio Code.
 
 ### GitHub
 GitHub was used to store this project.
@@ -217,6 +226,7 @@ Google Dev Tools was used to edit code and check responsiveness before making th
 
 ## Content 
 
+ - The gallery is based upon code from the [Dee Mc Coding channel](https://www.youtube.com/watch?v=2uvyx4YK_rQ) on Youtube.
 - Code snippet for the the Log in/Sign Up page was taken [from](https://codepen.io/ig_design/pen/KKVQpVP)
 - The icons in the footer and the menu bar were taken from [Font Awesome](https://fontawesome.com/)
 - Information about creating a navbar toggle with Javascript was found on youtube [here](https://www.youtube.com/watch?v=At4B7A4GOPg)
