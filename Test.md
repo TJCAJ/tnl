@@ -29,9 +29,99 @@ Click and drag the responsive window to maximum width
 The website was tested out on various web browsers to make sure everything loaded as intended. The browsers tested were: Google Chrome, Microsoft Edge and Safari.
 During the development of the website was it was viewed by a number of members in KPC United as well as my mentor and closest family.
 
+## Lighthouse Testing
+
+Lighthouse Speedtest was done on PageSpeed Insghts.
+
+![Computer Speedtest](docs/readme_images/pagespeed_insights_computer_test.jpg)
+
+![Mobile Speedtest](docs/readme_images/pagespeed_insights_mobile_test.jpg)
+
+## Functional Testing
+
+### Navigation Links
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page. Links on all pages navigated to the correct pages as expected.
+
+## Form Testing
+The Signup / Login form was tested to ensure it function as expected. The following test scenarios were covered:
+
+#### Scenario One - Correct Inputs
+Steps to test:
+Input the following data:
+- Your  First Name: John
+- Your  Last Name: Doe
+- Your  Email: john@doe.com
+- Choose preferred multiplayer mode with radio buttons
+- Click Call
+
+User should be redirected to https://formdump.codeinstitute.net/ confirmation page
+
+![Form submission](docs/readme_images/form_submission_success.png)
+
+Expected:
+Form submits with no warnings or errors and user can click back to previous page.
+
+Actual:
+Website behaved as expected with no errors or warnings and user can click back to previous page.
+
+#### Scenario Two - Missing Required Field Your First Name
+Steps to test:
+Scroll down to the form and input the following data:
+- Your  First Name:
+- Your  Last Name: Doe
+- Your  Email: john@doe.com
+- Choose preferred multiplayer mode with radio buttons
+- Click Call
+
+Expected:
+As the field with Your First Name is not filled with a name the form will not submit and tell the user that the field is required.
+
+Actual:
+Website behaved as expected, a message was displayed that Your First Name must be filled in with a name and the form did not submit.
+
+#### Scenario Three - Missing Required Field Your Last Name
+
+Steps to test:
+Scroll down to the form and input the following data:
+- Your First Name: John
+- Your Last Name:
+- Your Email: john@doe.com
+- Choose preferred multiplayer mode with radio buttons
+- Click Call
+
+Expected:
+As the field with Your Last Name is not filled with a name the form will not submit and tell the user that the field is required.
+
+Actual:
+Website behaved as expected, a message was displayed that Your  Last Name must be filled in with a name and the form did not submit.
+
+#### Scenario Four - Missing Required Field Your Email
+
+Steps to test:
+Scroll down to the form and input the following data:
+
+- Your  First Name: Jon
+- Your  Last Name: Doe
+- Your  Email:
+- Choose preferred multiplayer mode with radio buttons
+- Click Call
+
+Expected:
+As the field with Your Email is not filled with a name the form will not submit and tell the user that the field is required.
+
+Actual:
+Website behaved as expected, a message was displayed that Your Email must be filled in with a name and the form did not submit.
+
+## Footer Social Media Icons / Links
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
+Each item opened a new tab when clicked as expected and correct hover colour was present.
+
+
 ### The outcome of these test were:
 
 - The menu bar didn’t work as it should when changing screen size on various devices with larger screen size.
 - Page text and images were not aligned correctly. These issuses were then adjusted.
 
 - All feedback was valuable for the development process and changes were made to improve the user experience.
+
+- The result of the Lighthouse Speedtest reflects that the video link from youtube on the main page slows down the performance. This is possible to correct via lazy load but is not yet implemented.

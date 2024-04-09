@@ -165,7 +165,8 @@ Information about the tests can be viewed [here](Test.md)
 - The site was deployed to GitHub pages. But it was not without a minor issue. As I deployed my website it didn’t go through Github for a long time. Then I realised that it was due to the fact that I hadn’t pushed my last commits. This made the deployment to fail. The solution again was to google and find the answer. 
 
 ### Unfixed Bugs
-- All forms doesn't have associated labels or aria-labels due to my choice of design. This mean that they are not out on a screen reader to users who tab to form inputs.
+- All forms doesn't have associated labels or aria-labels due to my choice of design. This mean that they are not read out on a screen reader to users who tab to form inputs.
+- Speedtest shows that the speed on the website can be improved.
 
 
 ## Deployment
