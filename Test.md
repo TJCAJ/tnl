@@ -4,6 +4,7 @@
 - The logo in the header was tested to make sure you return to the home page when it is clicked on.
 - Each social media icon in the footer was tested to make sure they not only opened in the correct social media pages but that they also opened in a new tab.
 - Each field of the Login/Sig up form was tested to make sure if it was empty a warning popped up to let the user know the field was required and that the submit button worked as intended. 
+- All links to external websites and Youtube have been checked to ensure that they are functional and up to date.
 
 ## Gallery
 Header and footer as above.

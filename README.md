@@ -144,7 +144,7 @@ Information about the tests will be viewed [here](Test.md)
 
  - GitPod in Visual studios on my MacBook Pro didn’t work as easy as working directly in the browser for me. As a beginner with all these new platforms and development tools it is a constant battle trying to understand why and how all functions works in each dev tool. A simple thing here was that I couldn’t change the text in Visual studios. Nothing happened and it was hard to google any answers. For me it was easier to stick to the browser that worked as submission day closed in. Ath the end I got help via Slack by user Jörgen_5p_lead (Jörgen Jonsson) to find out that this was caused by a plugin that I had activated in VS Studio. As I removed this plugin the IDE started to work correctly.
 
-Git commit… I am a beginner and this was a real struggle for me in the beginning as I tested out code and functionality on various elements  in a rapid haste. Made several errors with this, but as it goes one can only get better with experience. Googled a lot and studied the Love Running project several times to improve on this.
+- Git commit… I am a beginner and this was a real struggle for me in the beginning as I tested out code and functionality on various elements  in a rapid haste. Made several errors with this, but as it goes one can only get better with experience. Googled a lot and studied the Love Running project several times to improve on this.
 
 - The landing page image was not responsive at first. As I talked with my mentor he helped me figure out that it was easier to add the hero image as a < img > tag in the HTML rather than as a url and styling in the CSS. This solved my issue.
 
@@ -158,7 +158,7 @@ Git commit… I am a beginner and this was a real struggle for me in the beginni
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
@@ -177,7 +177,7 @@ Inspiration for the readme file was taken from _The Love Running Project_ as wel
 
 - The desigm for _the gallery_ is based upon code that I learned via the [Dee Mc Coding channel](https://www.youtube.com/watch?v=2uvyx4YK_rQ) on Youtube. Run by user IonaFrisbee.
 
-- In addition I had a code implemented for _the signup page_ from Ivan Grozdic at [codeopen.io](https://codepen.io/ig_design/pen/KKVQpVP) that I have changed a bit to better fit with my own webpage colours, fonts and logo. - This is a built upon licensed sofwtware as stated here:
+- In addition I had a code implemented for _the signup page_ from Ivan Grozdic at [codeopen.io](https://codepen.io/ig_design/pen/KKVQpVP) that I have changed a bit to better fit with my own webpage colours, fonts and logo. - This is built upon licensed sofwtware as stated here:
 
 Copyright (c) 2024 by [Ivan Grozdic]('https://codepen.io/ig_design/pen/KKVQpVP')
 
@@ -203,10 +203,10 @@ Google fonts were used to import the following fonts Big Shoulders Display and 
 Font Awesome was used on each page of the website to provide icons for UX purposes.
 
 ### GitPod
-GitPod was used for writing all the code for this project. It was also used to commit and push to GitHub.
+GitPod was used for access to the student workspace and writing parts of the code for this project. It was also used to commit and push to GitHub.
 
 ### Visual Studio Code
-IDE used for this project is Visual Studio Code.
+IDE used for this project is Visual Studio Code. It was used writing parts of the code for this project as well and to commit and push to GitHub.
 
 ### GitHub
 GitHub was used to store this project.
@@ -227,9 +227,9 @@ Google Dev Tools was used to edit code and check responsiveness before making th
 ## Content 
 
  - The gallery is based upon code from the [Dee Mc Coding channel](https://www.youtube.com/watch?v=2uvyx4YK_rQ) on Youtube.
-- Code snippet for the the Log in/Sign Up page was taken [from](https://codepen.io/ig_design/pen/KKVQpVP)
+- Code snippet for the the Log in/Sign Up page was takenfrom [codeopen.io](https://codepen.io/ig_design/pen/KKVQpVP)
 - The icons in the footer and the menu bar were taken from [Font Awesome](https://fontawesome.com/)
-- Information about creating a navbar toggle with Javascript was found on youtube [here](https://www.youtube.com/watch?v=At4B7A4GOPg)
+- Information about creating a navbar toggle with Javascript was found on youtube and [Web Dev Simpified](https://www.youtube.com/watch?v=At4B7A4GOPg)
 
 
 ## Media
