@@ -130,12 +130,16 @@ Information about the tests can be viewed [here](Test.md)
 - HTML
   - No errors was found be passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 
-![html validation](docs/readme_images)
+![index html validation](docs/readme_images/w3c_index_html_WC3_html_validation.png)
+
+![gaellery html validation](docs/readme_images/w3c_gallery_html_WC3_html_validation.png)
+
+![signup html validation](docs/readme_images/w3c_signup_html_WC3_html_validation.png)
 
 - CSS
   - No errors was found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-  ![css validation](docs/readme_images)
+  ![css validation](docs/readme_images/w3c_css_validation.png)
 
 ### Issues encountered
 
