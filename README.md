@@ -152,21 +152,45 @@ The [W3C Validator](https://validator.w3.org/) was used to validate HTML and the
 <details>
 <summary>JSHint for JavaScript validation - no errors found. </summary>
 
-![JSHint for JavaScript validation](./assets/docs/images/jshint_check.webp)
+![JSHint for JavaScript validation](./docs/readme_images/jshint_check.png)
 </details>  
 
 
 <details>
-<summary>Lighthouse Scores for Desktop</summary>
+<summary>Lighthouse index Scores for Desktop</summary>
 
-![desktop lighthouse scores](./assets/docs/images/lighthouse_speedtest_computer.webp)
+![desktop lighthouse index computer scores](./docs/readme_images/lighthouse_index_computer_speed_test.png)
+</details>  
+ 
+<details>
+<summary>Lighthouse index Scores for Mobile - performance optimised by using already compressed .png files.</summary>
+
+![desktop lighthouse indec mobile scores](./docs/readme_images/lighthouse_index_mobile_speed_test.png)
+</details>  
+
+<details>
+<summary>Lighthouse gallery Scores for Desktop</summary>
+
+![desktop lighthouse gallery computer scores](./docs/readme_images/lighthouse_gallery_computer_speed_test.png)
+</details>  
+
+<details>
+<summary>Lighthouse gallery Scores for Mobile - performance optimised by using already compressed .png files.</summary>
+
+![desktop lighthouse gallery mobile scores](./docs/readme_images/lighthouse_gallery_mobile_speed_test.png)
+</details>  
+
+<details>
+<summary>Lighthouse signup Scores for Desktop</summary>
+
+![desktop lighthouse signup computer scores](./docs/readme_images/lighthouse_signup_computer_speed_test.png)
 </details>  
  
 
 <details>
-<summary>Lighthouse Scores for Mobile - performance optimised by using already compressed .png files.</summary>
+<summary>Lighthouse signup Scores for Mobile - performance optimised by using already compressed .png files.</summary>
 
-![desktop lighthouse scores](./assets/docs/images/lighthouse_speedtest_mobile.webp)
+![desktop lighthouse signup mobile scores](./docs/readme_images/lighthouse_signup_mobile_speed_test.png)
 </details>  
 
 
