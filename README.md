@@ -127,22 +127,54 @@ Information about the tests can be viewed [here](Test.md)
 
 ### Validator Testing 
 
-- HTML
-  - No errors was found be passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+The [W3C Validator](https://validator.w3.org/) was used to validate HTML and the CSS file was validated in the [Jigsaw W3C validator](https://jigsaw.w3.org/css-validator/). [JSHint](https://jshint.com/) was used to validate the JavaScript file. Below are the records of these validations:  
+  
+<details>
+<summary>W3C HTML Validation - no errors or warnings to show </summary>
 
-![index html validation](docs/readme_images/w3c_index_html_WC3_html_validation.png)
+![html index w3c validation](./docs/readme_images/w3c_index_html_WC3_html_validation.png)
+</details>
 
-![gaellery html validation](docs/readme_images/w3c_gallery_html_WC3_html_validation.png)
+![html gallery w3c validation](./docs/readme_images/w3c_gallery_html_WC3_html_validation.png)
+</details>
 
-![signup html validation](docs/readme_images/w3c_signup_html_WC3_html_validation.png)
+![html signup w3c validation](./docs/readme_images/w3c_signup_html_WC3_html_validation.png)
+</details>  
 
-- CSS
-  - No errors was found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-  ![css validation](docs/readme_images/w3c_css_validation.png)
+<details>
+<summary>W3C Jigsaw CSS Validation - no errors found</summary>
 
-### Accessibility
-[Wave Accessibility](https://wave.webaim.org/) tool was used at the end development and for final testing of the deployed website to check for aid accessibility testing.
+![css w3c validation](./docs/readme_images/w3c_css_validation.png)
+</details>  
+
+
+<details>
+<summary>JSHint for JavaScript validation - no errors found. </summary>
+
+![JSHint for JavaScript validation](./assets/docs/images/jshint_check.webp)
+</details>  
+
+
+<details>
+<summary>Lighthouse Scores for Desktop</summary>
+
+![desktop lighthouse scores](./assets/docs/images/lighthouse_speedtest_computer.webp)
+</details>  
+ 
+
+<details>
+<summary>Lighthouse Scores for Mobile - performance optimised by using already compressed .png files.</summary>
+
+![desktop lighthouse scores](./assets/docs/images/lighthouse_speedtest_mobile.webp)
+</details>  
+
+
+<details>
+<summary>WAVE report for accessibility</summary>
+
+![WAVE report for accessibility](./assets/docs/images/wave_accessability_report_check.webp)
+</details>  
 
 ### Issues encountered
 
