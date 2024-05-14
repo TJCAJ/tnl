@@ -130,13 +130,19 @@ Information about the tests can be viewed [here](Test.md)
 The [W3C Validator](https://validator.w3.org/) was used to validate HTML and the CSS file was validated in the [Jigsaw W3C validator](https://jigsaw.w3.org/css-validator/). [JSHint](https://jshint.com/) was used to validate the JavaScript file. Below are the records of these validations:  
   
 <details>
-<summary>W3C HTML Validation - no errors or warnings to show </summary>
+<summary>W3C HTML index Validation - no errors or warnings to show </summary>
 
 ![html index w3c validation](./docs/readme_images/w3c_index_html_WC3_html_validation.png)
 </details>
 
+<details>
+<summary>W3C HTML gallery Validation - no errors or warnings to show </summary>
+
 ![html gallery w3c validation](./docs/readme_images/w3c_gallery_html_WC3_html_validation.png)
 </details>
+
+<details>
+<summary>W3C HTML signup Validation - no errors or warnings to show </summary>
 
 ![html signup w3c validation](./docs/readme_images/w3c_signup_html_WC3_html_validation.png)
 </details>  
@@ -195,9 +201,21 @@ The [W3C Validator](https://validator.w3.org/) was used to validate HTML and the
 
 
 <details>
-<summary>WAVE report for accessibility</summary>
+<summary>WAVE report for index accessibility</summary>
 
-![WAVE report for accessibility](./assets/docs/images/wave_accessability_report_check.webp)
+![WAVE report index for accessibility](./docs/readme_images/wave_report_index.png)
+</details>  
+
+<details>
+<summary>WAVE report for gallery accessibility</summary>
+
+![WAVE report gallery for accessibility](./docs/readme_images/wave_report_gallery.png)
+</details>  
+
+<details>
+<summary>WAVE report for signup accessibility</summary>
+
+![WAVE report signup for accessibility](./docs/readme_images/wave_report_signup.png)
 </details>  
 
 ### Issues encountered
@@ -219,8 +237,8 @@ The [W3C Validator](https://validator.w3.org/) was used to validate HTML and the
 - The site was deployed to GitHub pages. But it was not without a minor issue. As I deployed my website it didn’t go through Github for a long time. Then I realised that it was due to the fact that I hadn’t pushed my last commits. This made the deployment to fail. The solution again was to google and find the answer. 
 
 ### Unfixed Bugs
-- All forms doesn't have associated labels or aria-labels due to my choice of design. This mean that they are not read out on a screen reader to users who tab to form inputs.
 - Speedtest shows that the speed on the website can be improved.
+- Wave report indicates 1 error on both gallery and sigup pages. This is caused by a hidden toggle button.
 
 
 ## Deployment
