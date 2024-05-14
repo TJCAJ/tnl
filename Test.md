@@ -31,7 +31,7 @@ During the development of the website was it was viewed by a number of members i
 
 ## Lighthouse Testing
 
-Lighthouse Speedtest was done on PageSpeed Insghts.
+Lighthouse Speedtest is documented in Readme but was also done on PageSpeed Insights.
 
 ![Computer Speedtest](docs/readme_images/pagespeed_insights_computer_test.jpg)
 
