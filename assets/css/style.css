@@ -1229,7 +1229,7 @@ at the Dee Mc Coding Youtube channel (https: //www.youtube.com/watch? **/
     padding-top: 3vh;
     margin-bottom: 3vh;
     width: auto;
-    height: 1000px;
+    height: 1100px;
   }
 
   .checkbox:checked+label,
@@ -1260,7 +1260,7 @@ at the Dee Mc Coding Youtube channel (https: //www.youtube.com/watch? **/
   .card-3d-wrap {
     width: 880px;
     max-width: 100%;
-    height: 700px;
+    height: 800px;
   }
 
   .form-style {
