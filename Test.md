@@ -48,7 +48,7 @@ Lighthouse Speedtest is documented in Readme but was also done on PageSpeed Insi
 
 ### **Initial tests**  
   
-The primary goal for this project was to learn the basis of HTML and CSS while creating a responsive web page that can assist in connecting a specific target group as well as it delivers some entertainment and a chance to to learn more oabout poker for the user. After my first submission failure, I decided to clone my original PP1 project and continue to develop the project for a resubmssion. This is why I have quite a few commits.
+The primary goal for this project was to learn the basis of HTML and CSS while creating a responsive web page that can assist in connecting a specific target group as well as it delivers some entertainment and a chance to to learn more about poker for the user. After my first submission failure, I decided to clone my original PP1 project and continue to develop the project for a resubmssion. This is why I have quite a few commits.
   
 - Macbook Pro (5120 X 2880)  
 - LG HDR 4K" Monitor (3840x2160)
