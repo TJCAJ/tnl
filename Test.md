@@ -33,9 +33,40 @@ During the development of the website was it was viewed by a number of members i
 
 Lighthouse Speedtest is documented in Readme but was also done on PageSpeed Insights.
 
+<details>
+<summary>Computer Speedtest</summary>
+
 ![Computer Speedtest](docs/readme_images/pagespeed_insights_computer_test.jpg)
+</details>  
+
+<details>
+<summary>Mobile Speedtest</summary>
 
 ![Mobile Speedtest](docs/readme_images/pagespeed_insights_mobile_test.jpg)
+</details>  
+
+
+### **Initial tests**  
+  
+The primary goal for this project was to learn the basis of HTML and CSS while creating a responsive web page that can assist in connecting a specific target group as well as it delivers some entertainment and a chance to to learn more oabout poker for the user. After my first submission failure, I decided to clone my original PP1 project and continue to develop the project for a resubmssion. This is why I have quite a few commits.
+  
+- Macbook Pro (5120 X 2880)  
+- LG HDR 4K" Monitor (3840x2160)
+- iPad Pro 2021
+- iPhone 12 Pro
+
+<details>
+<summary>Test sheet validation - no errors or warnings to show </summary>
+
+![test sheet](./docs/readme_images/the_nut_low_test_validation_sheet.jpg)
+</details>  
+
+On desktop, the browsers that I had access to for testing were:
+
+- <b>Chrome</b>
+- <b>Safari</b> 
+
+The results of feature testing in <b>Chrome</b>, <b>Firefox</b>, <b>Edge</b> and <b>Safarai</b> are as follows:
 
 ## Functional Testing
 
