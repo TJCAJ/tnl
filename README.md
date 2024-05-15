@@ -11,6 +11,31 @@ This my first Milestone project for Code Institute's Full Stack Software Develop
 The looks and the feel of the website is created with red, white green and black colours. Inspired from the most common colours related to playing poker and other card games. This also helps to user visual with strong contrasts and is easy to navigate through.
 
 
+## User Experience (UX)
+
+### **User Stories**
+
+### **Primary Goal**
+
+THE NUT LOW is a homepage styled in a user friendly and easy to read maner with adequate contrast between background and foreground colors.
+
+### **User/Visitor Goals**
+
+THE NUT LOW has been designed to be easily accessible for a specific target group. It is priarily a site where the user can access information about their local poker club in Stockholm, Sweden, upcoming games and learn more about playing poker.
+
+### **First-Time User/Visitor**
+
+  - As a first-time user, I want to know more about poker.
+  - As a first-time user, I want to be able to register for a personal account.
+  - As a first-time user, I want to engage and learn more about poker.
+
+### **Returning User/Visitor**
+
+  - As a returning user, I want to access information about upcoming games and seats available.
+  - As a returning visitor, I want to have an easy access to the World Poker Tour Youtube channel.
+  
+<br>  
+
 ## Features
 
 - __Navigation Bar__
