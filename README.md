@@ -279,6 +279,7 @@ For the purpose of this project, the following technologies were used.
 ### Languages:
 - HTML
 - CSS
+- Javascript
 
 ### Frameworks, Libraries, Programs & Applications Used:
 ### Google Font
