@@ -21,7 +21,7 @@ THE NUT LOW is a homepage styled in a user friendly and easy to read maner with 
 
 ### **User/Visitor Goals**
 
-THE NUT LOW has been designed to be easily accessible for a specific target group. It is priarily a site where the user can access information about their local poker club in Stockholm, Sweden, upcoming games and learn more about playing poker.
+THE NUT LOW has been designed to be easily accessible for a specific target group. It is primarily a site where the user can access information about their local poker club in Stockholm, Sweden, upcoming games and learn more about playing poker.
 
 ### **First-Time User/Visitor**
 
